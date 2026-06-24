@@ -91,6 +91,10 @@
         {
           "id": "pc",
           "name": "PC"
+        },
+        {
+          "id": "switch",
+          "name": "Nintendo Switch"
         }
       ],
       "genres": [
@@ -101,6 +105,11 @@
       "description": "Сверхъестественный cozy life sim: вампир переезжает в магический город, выращивает необычные культуры, обустраивает дом, дружит с ведьмами, оборотнями и другими жителями.",
       "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2209900/header.jpg",
       "sources": [
+        {
+          "name": "Gematsu",
+          "url": "https://www.gematsu.com/2026/03/moonlight-peaks-launches-july-7-for-switch-2-switch-and-pc",
+          "type": "media"
+        },
         {
           "name": "GamesRadar+ indie releases",
           "url": "https://www.gamesradar.com/upcoming-indie-games/",
@@ -113,8 +122,8 @@
         }
       ],
       "verificationStatus": "verified",
-      "verifiedAt": "2026-06-24T12:20:00.000Z",
-      "sourceUrl": "https://www.gamesradar.com/upcoming-indie-games/"
+      "verifiedAt": "2026-06-24T12:45:00.000Z",
+      "sourceUrl": "https://www.gematsu.com/2026/03/moonlight-peaks-launches-july-7-for-switch-2-switch-and-pc"
     },
     {
       "id": "verified-2026-07-09-assassins-creed-black-flag-resynced",
