@@ -83,6 +83,50 @@
       "description": "Следующая большая Persona от Atlus. Для календаря оставлена как неточный будущий релиз, потому что публичные материалы пока не дают надежной конкретной даты."
     },
     {
+      "id": "verified-2026-06-25-dead-or-alive-6-last-round",
+      "name": "DEAD OR ALIVE 6 Last Round",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:55:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Fighting"
+      ],
+      "description": "Обновленная definitive-версия DEAD OR ALIVE 6 для актуальных платформ: расширенный состав бойцов, новый фоторежим, дополнительные костюмы и бесплатная версия Core Fighters в день релиза.",
+      "sources": [
+        {
+          "name": "GamesRadar+ PS5 releases",
+          "url": "https://www.gamesradar.com/upcoming-ps5-games/",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+ Xbox releases",
+          "url": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
+          "type": "media"
+        },
+        {
+          "name": "TechRadar",
+          "url": "https://www.techradar.com/gaming/consoles-pc/one-of-the-thirstiest-fighting-games-ever-is-coming-to-ps5-with-a-new-photo-mode-to-capture-every-angle-of-your-favorite-characters-and-youll-even-be-able-to-play-it-for-free",
+          "type": "media"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/"
+    },
+    {
       "id": "verified-2026-moonlight-peaks",
       "name": "Moonlight Peaks",
       "date": "2026-07-07",
