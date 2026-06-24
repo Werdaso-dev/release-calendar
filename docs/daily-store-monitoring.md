@@ -13,13 +13,15 @@ Do not add Nintendo Switch 2 releases unless the same source also explicitly lis
 
 ## What counts as addable
 
-Add a game to `data/releases.json` only when all of these are true:
+Add a release to `data/releases.json` only when all of these are true:
 
-1. The game has a store or official page with an exact release date matching today's date.
+1. The game or DLC has a store or official page with an exact release date matching today's date.
 2. The platform is one of: PC, PlayStation, Xbox, Nintendo Switch.
-3. The listing is a full game release, not only DLC, soundtrack, demo, beta, preorder page, trailer, bundle-only sale, or patch.
+3. The listing is a full game or a playable/content DLC, expansion, character pack, story pack, map pack, or major add-on.
 4. The title is not already in `data/releases.json`.
 5. The date/platform/title are not contradicted by another reliable source.
+
+Do not add soundtrack-only releases, art books, demos, beta tests, preorder-only pages, trailers, currency packs, cosmetic-only bundles, hardware items, or patches.
 
 For small indie games, one official store page can be enough for the release date when the store clearly shows the exact date. When available, add a second source from the official site, publisher page, Gematsu, GamesRadar, TechRadar, Nintendo Life, Push Square, Pure Xbox, PC Gamer, Rock Paper Shotgun, or another established games outlet.
 
@@ -41,6 +43,11 @@ Use source types:
 - `media` for games media
 
 Write a short description that explains what the game is, without copying store text verbatim.
+
+Set `releaseType`:
+
+- `"game"` for full games
+- `"dlc"` for DLC, expansions, character packs, story packs, map packs, and other playable/content add-ons
 
 After editing:
 

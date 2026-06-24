@@ -121,6 +121,7 @@ function normalizeReleases(releases) {
       sources: release.sources || [],
       dateLabel: release.dateLabel || "",
       datePrecision: release.datePrecision || "day",
+      releaseType: release.releaseType || "game",
     }))
     .filter(isVerifiedRelease)
     .filter((release) => !Number.isNaN(release.dateObject.getTime()))
@@ -385,6 +386,9 @@ function createReleaseCard(release, options = {}) {
   }
   for (const genre of release.genres.slice(0, 2)) {
     tags.append(makeTag(genre));
+  }
+  if (release.releaseType === "dlc") {
+    tags.append(makeTag("DLC", "tag--dlc"));
   }
   if (release.datePrecision !== "day") {
     tags.append(makeTag("не точная дата", "tag--tentative"));

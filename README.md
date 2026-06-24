@@ -52,7 +52,7 @@ https://your-github-name.github.io/repository-name/
 
 `data/candidate-releases.json` — ежедневный список кандидатов из RAWG. Он нужен, чтобы быстрее находить новые релизы, но не заменяет проверку источников. Nintendo Switch 2 в календарь намеренно не добавляется; для Nintendo берется только оригинальный Nintendo Switch.
 
-Отдельно используется утренний мониторинг магазинов: Steam, PlayStation Store, Microsoft Store / Xbox Store и Nintendo eShop для оригинального Nintendo Switch. Правила проверки описаны в `docs/daily-store-monitoring.md`. Полные игры добавляются в основной календарь только когда магазин или официальный источник явно показывает точную сегодняшнюю дату релиза и подходящую платформу.
+Отдельно используется утренний мониторинг магазинов: Steam, PlayStation Store, Microsoft Store / Xbox Store и Nintendo eShop для оригинального Nintendo Switch. Правила проверки описаны в `docs/daily-store-monitoring.md`. Игры и playable/content DLC добавляются в основной календарь только когда магазин или официальный источник явно показывает точную сегодняшнюю дату релиза и подходящую платформу.
 
 Чтобы GitHub Actions каждый день обновлял список кандидатов:
 
@@ -85,7 +85,8 @@ npm run build
 4. Для точной даты используйте `datePrecision: "day"`.
 5. Для окна релиза используйте `month`, `quarter`, `season`, `year` или `unknown`, добавьте текст в `dateLabel`, а в `date` поставьте дату-якорь для календаря.
 6. Укажите `sources`; Wikipedia не должна быть единственным источником.
-7. Запустите:
+7. Укажите `releaseType`: `"game"` для полноценной игры или `"dlc"` для DLC/расширения.
+8. Запустите:
 
 ```bash
 npm run validate

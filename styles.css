@@ -505,6 +505,12 @@ select {
   background: #eef1f5;
 }
 
+.tag--dlc {
+  border-color: rgba(140, 95, 179, 0.28);
+  color: #6f3fa0;
+  background: rgba(140, 95, 179, 0.08);
+}
+
 .tag--source {
   text-decoration: none;
 }

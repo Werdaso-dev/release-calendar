@@ -53,7 +53,8 @@
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T11:35:00.000Z",
       "sourceUrl": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
-      "description": "Консольный релиз survival MMO во вселенной Dune: выживание на Арракисе, добыча ресурсов, техника, базы и борьба фракций. Дата для консолей пока заявлена только как окно 2026 года."
+      "description": "Консольный релиз survival MMO во вселенной Dune: выживание на Арракисе, добыча ресурсов, техника, базы и борьба фракций. Дата для консолей пока заявлена только как окно 2026 года.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-persona-6",
@@ -80,7 +81,8 @@
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T11:35:00.000Z",
       "sourceUrl": "https://www.gamesradar.com/games/persona/persona-6-is-rated-m-for-nudity-and-swears-and-im-now-wondering-if-the-jrpg-might-not-be-as-far-from-launch-as-we-all-feared/",
-      "description": "Следующая большая Persona от Atlus. Для календаря оставлена как неточный будущий релиз, потому что публичные материалы пока не дают надежной конкретной даты."
+      "description": "Следующая большая Persona от Atlus. Для календаря оставлена как неточный будущий релиз, потому что публичные материалы пока не дают надежной конкретной даты.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-06-25-dead-or-alive-6-last-round",
@@ -124,7 +126,8 @@
           "type": "media"
         }
       ],
-      "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/"
+      "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-moonlight-peaks",
@@ -167,7 +170,8 @@
       ],
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T12:45:00.000Z",
-      "sourceUrl": "https://www.gematsu.com/2026/03/moonlight-peaks-launches-july-7-for-switch-2-switch-and-pc"
+      "sourceUrl": "https://www.gematsu.com/2026/03/moonlight-peaks-launches-july-7-for-switch-2-switch-and-pc",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-07-09-assassins-creed-black-flag-resynced",
@@ -216,7 +220,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
-      "description": "Возвращение пиратской Assassin's Creed с морскими боями, исследованием Карибского моря и историей Эдварда Кенуэя в обновленной версии."
+      "description": "Возвращение пиратской Assassin's Creed с морскими боями, исследованием Карибского моря и историей Эдварда Кенуэя в обновленной версии.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-07-10-palworld",
@@ -257,7 +262,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
-      "description": "Полный релиз игры про сбор существ, выживание, базы и кооператив после периода раннего доступа."
+      "description": "Полный релиз игры про сбор существ, выживание, базы и кооператив после периода раннего доступа.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-the-mound-omen-of-cthulhu",
@@ -298,7 +304,8 @@
       ],
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T12:20:00.000Z",
-      "sourceUrl": "https://www.gematsu.com/2026/03/the-mound-omen-of-cthulhu-launches-july-15"
+      "sourceUrl": "https://www.gematsu.com/2026/03/the-mound-omen-of-cthulhu-launches-july-15",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-ratatan",
@@ -335,7 +342,8 @@
       ],
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T12:20:00.000Z",
-      "sourceUrl": "https://www.gematsu.com/2026/03/ratatan-launches-july-16-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-pc"
+      "sourceUrl": "https://www.gematsu.com/2026/03/ratatan-launches-july-16-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-pc",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-the-mermaids-mask",
@@ -373,7 +381,8 @@
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T12:20:00.000Z",
       "sourceUrl": "https://www.gamesradar.com/upcoming-indie-games/",
-      "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1696770/header.jpg"
+      "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1696770/header.jpg",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-dodo-duckie",
@@ -401,7 +410,8 @@
       ],
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T12:20:00.000Z",
-      "sourceUrl": "https://www.gematsu.com/2026/04/dodo-duckie-launches-july-23"
+      "sourceUrl": "https://www.gematsu.com/2026/04/dodo-duckie-launches-july-23",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-07-28-halo-campaign-evolved",
@@ -445,7 +455,8 @@
         }
       ],
       "sourceUrl": "https://www.pcgamer.com/games/new-pc-games-2026/",
-      "description": "Обновленная кампания классической Halo с современным визуалом и поддержкой актуальных платформ."
+      "description": "Обновленная кампания классической Halo с современным визуалом и поддержкой актуальных платформ.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-08-04-beast-of-reincarnation",
@@ -484,7 +495,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
-      "description": "Экшен от Game Freak с фокусом на мрачное фэнтези, сражения и путешествие через опасный мир."
+      "description": "Экшен от Game Freak с фокусом на мрачное фэнтези, сражения и путешествие через опасный мир.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-big-walk",
@@ -522,7 +534,8 @@
       ],
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T12:20:00.000Z",
-      "sourceUrl": "https://www.gamesradar.com/upcoming-indie-games/"
+      "sourceUrl": "https://www.gamesradar.com/upcoming-indie-games/",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-fields-of-mistria",
@@ -556,7 +569,8 @@
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T12:20:00.000Z",
       "sourceUrl": "https://www.gamesradar.com/upcoming-indie-games/",
-      "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2142790/header.jpg"
+      "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2142790/header.jpg",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-08-06-marvel-tokon-fighting-souls",
@@ -596,7 +610,8 @@
         }
       ],
       "sourceUrl": "https://www.pcgamer.com/games/new-pc-games-2026/",
-      "description": "Командный файтинг по Marvel с яркой стилизацией и быстрыми матчами в формате персонажных боев."
+      "description": "Командный файтинг по Marvel с яркой стилизацией и быстрыми матчами в формате персонажных боев.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-grave-seasons",
@@ -647,7 +662,8 @@
       ],
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T12:20:00.000Z",
-      "sourceUrl": "https://www.gamesradar.com/games/simulation/stardew-valley-like-farming-sim-with-a-romanceable-supernatural-serial-killer-gets-an-august-release-date-with-a-demo-coming-soon/"
+      "sourceUrl": "https://www.gamesradar.com/games/simulation/stardew-valley-like-farming-sim-with-a-romanceable-supernatural-serial-killer-gets-an-august-release-date-with-a-demo-coming-soon/",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-08-18-the-sinking-city-2",
@@ -686,7 +702,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/",
-      "description": "Лавкрафтианский survival horror с расследованием, монстрами и мрачным городом, где детективная часть уступает больше места выживанию."
+      "description": "Лавкрафтианский survival horror с расследованием, монстрами и мрачным городом, где детективная часть уступает больше места выживанию.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-08-27-metal-gear-solid-master-collection-vol-2",
@@ -736,7 +753,8 @@
         }
       ],
       "sourceUrl": "https://www.konami.com/mg/mc/vol2/",
-      "description": "Вторая подборка классических Metal Gear Solid для современных платформ."
+      "description": "Вторая подборка классических Metal Gear Solid для современных платформ.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-08-27-resonance-a-plague-tale-legacy",
@@ -775,7 +793,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
-      "description": "Новая история во вселенной A Plague Tale, заявленная как приключенческая игра с упором на сюжет и атмосферу."
+      "description": "Новая история во вселенной A Plague Tale, заявленная как приключенческая игра с упором на сюжет и атмосферу.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-08-27-star-wars-zero-company",
@@ -814,7 +833,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/",
-      "description": "Тактическая стратегия во вселенной Star Wars, где игрок собирает отряд и ведет его через пошаговые операции."
+      "description": "Тактическая стратегия во вселенной Star Wars, где игрок собирает отряд и ведет его через пошаговые операции.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-09-03-the-blood-of-dawnwalker",
@@ -853,7 +873,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
-      "description": "Темное фэнтези-RPG от ветеранов жанра: вампиры, моральные решения и напряженная история в средневековом мире."
+      "description": "Темное фэнтези-RPG от ветеранов жанра: вампиры, моральные решения и напряженная история в средневековом мире.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-09-08-halloween-the-game",
@@ -897,7 +918,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
-      "description": "Хоррор-игра по культовой серии Halloween с выживанием, преследованием и атмосферой слэшера."
+      "description": "Хоррор-игра по культовой серии Halloween с выживанием, преследованием и атмосферой слэшера.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-09-09-valheim",
@@ -937,7 +959,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
-      "description": "Консольный/полный релиз викингского survival-песочницы с строительством, боссами и кооперативным исследованием биомов."
+      "description": "Консольный/полный релиз викингского survival-песочницы с строительством, боссами и кооперативным исследованием биомов.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-09-15-marvels-wolverine",
@@ -978,7 +1001,8 @@
         }
       ],
       "sourceUrl": "https://www.playstation.com/en-us/games/marvels-wolverine/",
-      "description": "Сольный экшен про Росомаху от Insomniac Games с кинематографичной постановкой и ближним боем."
+      "description": "Сольный экшен про Росомаху от Insomniac Games с кинематографичной постановкой и ближним боем.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-09-24-control-resonant",
@@ -1017,7 +1041,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
-      "description": "Новая игра во вселенной Control с паранормальными явлениями, боевой системой Remedy и загадками Федерального бюро контроля."
+      "description": "Новая игра во вселенной Control с паранормальными явлениями, боевой системой Remedy и загадками Федерального бюро контроля.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-09-24-silent-hill-townfall",
@@ -1052,7 +1077,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/",
-      "description": "Психологический хоррор в серии Silent Hill, который делает ставку на тревожную атмосферу и сюжетную неопределенность."
+      "description": "Психологический хоррор в серии Silent Hill, который делает ставку на тревожную атмосферу и сюжетную неопределенность.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-09-25-onimusha-way-of-the-sword",
@@ -1091,7 +1117,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/",
-      "description": "Возвращение самурайского экшена Capcom: демоны, мечи и современная постановка классической формулы Onimusha."
+      "description": "Возвращение самурайского экшена Capcom: демоны, мечи и современная постановка классической формулы Onimusha.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-10-02-ace-combat-8-wings-of-theve",
@@ -1130,7 +1157,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
-      "description": "Новая часть авиационного экшена Ace Combat с воздушными боями, драматичной кампанией и аркадной динамикой."
+      "description": "Новая часть авиационного экшена Ace Combat с воздушными боями, драматичной кампанией и аркадной динамикой.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-10-06-gears-of-war-e-day",
@@ -1170,7 +1198,8 @@
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T12:05:00.000Z",
       "sourceUrl": "https://www.gamesradar.com/games/gears-of-war/gears-of-war-e-day-brings-back-a-feature-the-series-hasnt-supported-in-over-10-years-and-the-coalition-says-making-it-work-was-a-huge-investment/",
-      "description": "Приквел Gears of War о Дне прорыва, когда саранча впервые вышла на поверхность и началась война за Сера."
+      "description": "Приквел Gears of War о Дне прорыва, когда саранча впервые вышла на поверхность и началась война за Сера.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-10-08-hellraiser-revival",
@@ -1210,7 +1239,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
-      "description": "Хоррор по Hellraiser с мрачной телесной эстетикой, сенобитами и упором на сюжетное выживание."
+      "description": "Хоррор по Hellraiser с мрачной телесной эстетикой, сенобитами и упором на сюжетное выживание.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-10-13-planet-zoo-2",
@@ -1249,7 +1279,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
-      "description": "Продолжение зоопаркового менеджера: строительство, забота о животных, экономика парка и расширенные инструменты симуляции."
+      "description": "Продолжение зоопаркового менеджера: строительство, забота о животных, экономика парка и расширенные инструменты симуляции.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-10-15-castlevania-belmonts-curse",
@@ -1283,7 +1314,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/",
-      "description": "Новая Castlevania с охотой на чудовищ, готической атмосферой и наследием семьи Бельмонтов."
+      "description": "Новая Castlevania с охотой на чудовищ, готической атмосферой и наследием семьи Бельмонтов.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-10-23-call-of-duty-modern-warfare-4",
@@ -1332,7 +1364,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/games/call-of-duty/modern-warfare-4-revealed-as-infinity-ward-kickstarts-a-new-chapter-for-call-of-duty-with-an-ambitious-campaign-multiplayer-overhaul-and-a-new-extraction-experience/",
-      "description": "Новая часть Modern Warfare с кампанией, мультиплеером и крупной сезонной поддержкой после релиза."
+      "description": "Новая часть Modern Warfare с кампанией, мультиплеером и крупной сезонной поддержкой после релиза.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-10-29-phantom-blade-zero",
@@ -1367,7 +1400,8 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
-      "description": "Стильный экшен-RPG с быстрым боем на мечах, темной китайской эстетикой и акцентом на зрелищные поединки."
+      "description": "Стильный экшен-RPG с быстрым боем на мечах, темной китайской эстетикой и акцентом на зрелищные поединки.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-11-19-grand-theft-auto-vi",
@@ -1412,7 +1446,8 @@
         }
       ],
       "sourceUrl": "https://www.rockstargames.com/VI",
-      "description": "Криминальная open-world игра Rockstar в штате Леонида и Vice City, с двумя главными героями и большим современным городом."
+      "description": "Криминальная open-world игра Rockstar в штате Леонида и Vice City, с двумя главными героями и большим современным городом.",
+      "releaseType": "game"
     },
     {
       "id": "verified-2026-pragmata-window",
@@ -1454,7 +1489,8 @@
       ],
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T12:20:00.000Z",
-      "sourceUrl": "https://www.gamesradar.com/new-pc-games/"
+      "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
+      "releaseType": "game"
     },
     {
       "id": "verified-2027-02-23-fable",
@@ -1503,7 +1539,8 @@
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T12:05:00.000Z",
       "sourceUrl": "https://www.pcgamer.com/fable-4-reboot-guide/",
-      "description": "Перезапуск Fable от Playground Games: сказочное фэнтези, британский юмор, моральный выбор и открытый мир Альбиона."
+      "description": "Перезапуск Fable от Playground Games: сказочное фэнтези, британский юмор, моральный выбор и открытый мир Альбиона.",
+      "releaseType": "game"
     }
   ]
 }
