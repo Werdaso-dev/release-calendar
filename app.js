@@ -327,20 +327,40 @@ function createReleaseCard(release, options = {}) {
     release.description || "Краткое описание пока не добавлено.";
   fallback.textContent = getInitials(release.name);
 
-  if (release.imageUrl) {
+  const generatedArtworkUrl = getGeneratedArtworkUrl(release);
+  const artworkUrl = release.imageUrl || generatedArtworkUrl;
+
+  if (artworkUrl) {
+    let isUsingGeneratedArtwork = artworkUrl === generatedArtworkUrl;
+    let fallbackTimer;
+    const useGeneratedArtworkOrFallback = () => {
+      window.clearTimeout(fallbackTimer);
+
+      if (!isUsingGeneratedArtwork && generatedArtworkUrl) {
+        isUsingGeneratedArtwork = true;
+        fallbackTimer = window.setTimeout(() => {
+          if (!image.complete || image.naturalWidth === 0) {
+            showImageFallback(media, image, fallback);
+          }
+        }, 1200);
+        image.src = generatedArtworkUrl;
+        return;
+      }
+
+      showImageFallback(media, image, fallback);
+    };
+
     fallback.hidden = true;
-    const fallbackTimer = window.setTimeout(() => {
+    fallbackTimer = window.setTimeout(() => {
       if (!image.complete || image.naturalWidth === 0) {
-        showImageFallback(media, image, fallback);
+        useGeneratedArtworkOrFallback();
       }
     }, 2500);
     image.addEventListener(
       "error",
       () => {
-        window.clearTimeout(fallbackTimer);
-        showImageFallback(media, image, fallback);
-      },
-      { once: true },
+        useGeneratedArtworkOrFallback();
+      }
     );
     image.addEventListener(
       "load",
@@ -352,7 +372,7 @@ function createReleaseCard(release, options = {}) {
     );
     image.loading = "eager";
     image.decoding = "async";
-    image.src = release.imageUrl;
+    image.src = artworkUrl;
     image.alt = "";
     image.referrerPolicy = "no-referrer";
   } else {
@@ -418,6 +438,10 @@ function showImageFallback(media, image, fallback) {
   image.remove();
   fallback.hidden = false;
   media.classList.add("release-card__media--fallback");
+}
+
+function getGeneratedArtworkUrl(release) {
+  return release.id ? `./assets/generated-artwork/${encodeURIComponent(release.id)}.svg` : "";
 }
 
 function getInitials(name) {
