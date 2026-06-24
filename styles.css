@@ -150,7 +150,7 @@ select {
 
 .segmented {
   display: grid;
-  grid-template-columns: repeat(5, minmax(max-content, 1fr));
+  grid-template-columns: minmax(58px, 0.75fr) minmax(58px, 0.75fr) minmax(124px, 1.35fr) minmax(72px, 0.85fr) minmax(82px, 0.95fr);
   width: 100%;
   min-height: 42px;
   border: 1px solid var(--line);
@@ -594,6 +594,10 @@ select {
 @media (max-width: 1080px) {
   .toolbar {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .segmented {
+    grid-column: 1 / -1;
   }
 
   .content-grid {
