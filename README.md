@@ -52,6 +52,8 @@ https://your-github-name.github.io/repository-name/
 
 `data/candidate-releases.json` — ежедневный список кандидатов из RAWG. Он нужен, чтобы быстрее находить новые релизы, но не заменяет проверку источников. Nintendo Switch 2 в календарь намеренно не добавляется; для Nintendo берется только оригинальный Nintendo Switch.
 
+Отдельно используется утренний мониторинг магазинов: Steam, PlayStation Store, Microsoft Store / Xbox Store и Nintendo eShop для оригинального Nintendo Switch. Правила проверки описаны в `docs/daily-store-monitoring.md`. Полные игры добавляются в основной календарь только когда магазин или официальный источник явно показывает точную сегодняшнюю дату релиза и подходящую платформу.
+
 Чтобы GitHub Actions каждый день обновлял список кандидатов:
 
 1. Получите бесплатный ключ RAWG API: https://rawg.io/apidocs
