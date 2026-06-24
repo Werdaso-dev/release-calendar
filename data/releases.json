@@ -1,0 +1,1456 @@
+{
+  "updatedAt": "2026-06-24T11:07:09Z",
+  "sourceName": "GamesRadar+, Gematsu, Steam и игровые СМИ",
+  "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
+  "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Nintendo Switch"
+  ],
+  "range": {
+    "from": "2026-06-25",
+    "until": "2027-12-31"
+  },
+  "verificationPolicy": {
+    "requiredSources": 1,
+    "rule": "A release is shown after its date is found in at least one reliable source. Prefer official publisher/developer/store pages and established games media. Wikipedia can be used only as a supplemental source, not as the sole source."
+  },
+  "note": "Основной календарь показывает релизы, подтвержденные официальными страницами, магазинами или игровыми СМИ. Wikipedia допускается только как дополнительный источник.",
+  "releases": [
+    {
+      "id": "verified-2026-dune-awakening-console",
+      "name": "Dune: Awakening",
+      "date": "2026-01-01",
+      "dateLabel": "2026, console release window",
+      "datePrecision": "year",
+      "platforms": [
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Survival",
+        "MMO"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ Xbox releases",
+          "url": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dune%3A_Awakening",
+          "type": "index"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:35:00.000Z",
+      "sourceUrl": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
+      "description": "Консольный релиз survival MMO во вселенной Dune: выживание на Арракисе, добыча ресурсов, техника, базы и борьба фракций. Дата для консолей пока заявлена только как окно 2026 года."
+    },
+    {
+      "id": "verified-2026-persona-6",
+      "name": "Persona 6",
+      "date": "2026-01-01",
+      "dateLabel": "дата не объявлена, ожидается после новых анонсов",
+      "datePrecision": "unknown",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "JRPG"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+",
+          "url": "https://www.gamesradar.com/games/persona/persona-6-is-rated-m-for-nudity-and-swears-and-im-now-wondering-if-the-jrpg-might-not-be-as-far-from-launch-as-we-all-feared/",
+          "type": "media"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:35:00.000Z",
+      "sourceUrl": "https://www.gamesradar.com/games/persona/persona-6-is-rated-m-for-nudity-and-swears-and-im-now-wondering-if-the-jrpg-might-not-be-as-far-from-launch-as-we-all-feared/",
+      "description": "Следующая большая Persona от Atlus. Для календаря оставлена как неточный будущий релиз, потому что публичные материалы пока не дают надежной конкретной даты."
+    },
+    {
+      "id": "verified-2026-moonlight-peaks",
+      "name": "Moonlight Peaks",
+      "date": "2026-07-07",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Life Sim",
+        "Cozy",
+        "Indie"
+      ],
+      "description": "Сверхъестественный cozy life sim: вампир переезжает в магический город, выращивает необычные культуры, обустраивает дом, дружит с ведьмами, оборотнями и другими жителями.",
+      "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2209900/header.jpg",
+      "sources": [
+        {
+          "name": "GamesRadar+ indie releases",
+          "url": "https://www.gamesradar.com/upcoming-indie-games/",
+          "type": "media"
+        },
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/2209900/Moonlight_Peaks/",
+          "type": "store"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:20:00.000Z",
+      "sourceUrl": "https://www.gamesradar.com/upcoming-indie-games/"
+    },
+    {
+      "id": "verified-2026-07-09-assassins-creed-black-flag-resynced",
+      "name": "Assassin's Creed Black Flag Resynced",
+      "date": "2026-07-09",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action-adventure"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PC releases",
+          "url": "https://www.gamesradar.com/new-pc-games/",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+ PS5 releases",
+          "url": "https://www.gamesradar.com/upcoming-ps5-games/",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+ Xbox releases",
+          "url": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
+      "description": "Возвращение пиратской Assassin's Creed с морскими боями, исследованием Карибского моря и историей Эдварда Кенуэя в обновленной версии."
+    },
+    {
+      "id": "verified-2026-07-10-palworld",
+      "name": "Palworld",
+      "date": "2026-07-10",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action-adventure",
+        "Survival",
+        "Monster tamer"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PC releases",
+          "url": "https://www.gamesradar.com/new-pc-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
+      "description": "Полный релиз игры про сбор существ, выживание, базы и кооператив после периода раннего доступа."
+    },
+    {
+      "id": "verified-2026-the-mound-omen-of-cthulhu",
+      "name": "The Mound: Omen of Cthulhu",
+      "date": "2026-07-15",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Horror",
+        "Co-op",
+        "Indie"
+      ],
+      "description": "Кооперативный психологический survival horror от ACE Team: экспедиция XVI века высаживается на проклятый остров, добывает сокровища и пытается не сломаться от ловушек рассудка.",
+      "sources": [
+        {
+          "name": "Gematsu",
+          "url": "https://www.gematsu.com/2026/03/the-mound-omen-of-cthulhu-launches-july-15",
+          "type": "media"
+        },
+        {
+          "name": "Creative Bloq hands-on",
+          "url": "https://www.creativebloq.com/entertainment/gaming/the-mound-hands-on-trust-breaks-down-fast-in-this-extraction-nightmare",
+          "type": "media"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:20:00.000Z",
+      "sourceUrl": "https://www.gematsu.com/2026/03/the-mound-omen-of-cthulhu-launches-july-15"
+    },
+    {
+      "id": "verified-2026-ratatan",
+      "name": "Ratatan",
+      "date": "2026-07-16",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action",
+        "Rhythm",
+        "Roguelite",
+        "Indie"
+      ],
+      "description": "Ритмичный roguelite-экшен от создателей, связанных с наследием Patapon: собираете армию Cobun, отбиваете темп и проходите хаотичные битвы в одиночку или с друзьями.",
+      "sources": [
+        {
+          "name": "Gematsu",
+          "url": "https://www.gematsu.com/2026/03/ratatan-launches-july-16-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-pc",
+          "type": "media"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:20:00.000Z",
+      "sourceUrl": "https://www.gematsu.com/2026/03/ratatan-launches-july-16-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-pc"
+    },
+    {
+      "id": "verified-2026-the-mermaids-mask",
+      "name": "The Mermaid's Mask",
+      "date": "2026-07-16",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "Adventure",
+        "Mystery",
+        "Indie"
+      ],
+      "description": "Детективное приключение от SFB Games, продолжение Tangle Tower: Гримуар и Салли расследуют убийство капитана на странной подлодке, собирают улики и допрашивают подозреваемых.",
+      "sources": [
+        {
+          "name": "GamesRadar+ indie releases",
+          "url": "https://www.gamesradar.com/upcoming-indie-games/",
+          "type": "media"
+        },
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/1696770/The_Mermaids_Mask/",
+          "type": "store"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:20:00.000Z",
+      "sourceUrl": "https://www.gamesradar.com/upcoming-indie-games/",
+      "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1696770/header.jpg"
+    },
+    {
+      "id": "verified-2026-dodo-duckie",
+      "name": "Dodo Duckie!",
+      "date": "2026-07-23",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Puzzle",
+        "Platformer",
+        "Indie"
+      ],
+      "description": "Добрый puzzle-platformer про утенка Додо, который спасает похищенных кур и переключает уровни между 2D и 3D перспективой, чтобы открывать новые пути.",
+      "sources": [
+        {
+          "name": "Gematsu",
+          "url": "https://www.gematsu.com/2026/04/dodo-duckie-launches-july-23",
+          "type": "media"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:20:00.000Z",
+      "sourceUrl": "https://www.gematsu.com/2026/04/dodo-duckie-launches-july-23"
+    },
+    {
+      "id": "verified-2026-07-28-halo-campaign-evolved",
+      "name": "Halo: Campaign Evolved",
+      "date": "2026-07-28",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "FPS"
+      ],
+      "sources": [
+        {
+          "name": "PC Gamer 2026 releases",
+          "url": "https://www.pcgamer.com/games/new-pc-games-2026/",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+ Xbox releases",
+          "url": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.pcgamer.com/games/new-pc-games-2026/",
+      "description": "Обновленная кампания классической Halo с современным визуалом и поддержкой актуальных платформ."
+    },
+    {
+      "id": "verified-2026-08-04-beast-of-reincarnation",
+      "name": "Beast of Reincarnation",
+      "date": "2026-08-04",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action RPG"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ Xbox releases",
+          "url": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
+      "description": "Экшен от Game Freak с фокусом на мрачное фэнтези, сражения и путешествие через опасный мир."
+    },
+    {
+      "id": "verified-2026-big-walk",
+      "name": "Big Walk",
+      "date": "2026-08-04",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "Adventure",
+        "Co-op",
+        "Indie"
+      ],
+      "description": "Кооперативное приключение от House House: компания игроков идет в большой поход, решает экологичные головоломки, исследует открытые пространства и общается через игровые инструменты.",
+      "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
+      "sources": [
+        {
+          "name": "GamesRadar+ indie releases",
+          "url": "https://www.gamesradar.com/upcoming-indie-games/",
+          "type": "media"
+        },
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/1478500/Big_Walk/",
+          "type": "store"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:20:00.000Z",
+      "sourceUrl": "https://www.gamesradar.com/upcoming-indie-games/"
+    },
+    {
+      "id": "verified-2026-fields-of-mistria",
+      "name": "Fields of Mistria",
+      "date": "2026-08-05",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Life Sim",
+        "RPG",
+        "Indie"
+      ],
+      "description": "Фермерская RPG в духе классических life sim: восстанавливаете деревню, выращиваете урожай, заводите отношения, рыбачите, исследуете шахты и ждете полноценную версию 1.0.",
+      "sources": [
+        {
+          "name": "GamesRadar+ indie releases",
+          "url": "https://www.gamesradar.com/upcoming-indie-games/",
+          "type": "media"
+        },
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/2142790/Fields_of_Mistria/",
+          "type": "store"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:20:00.000Z",
+      "sourceUrl": "https://www.gamesradar.com/upcoming-indie-games/",
+      "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2142790/header.jpg"
+    },
+    {
+      "id": "verified-2026-08-06-marvel-tokon-fighting-souls",
+      "name": "Marvel Tokon: Fighting Souls",
+      "date": "2026-08-06",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "Fighting"
+      ],
+      "sources": [
+        {
+          "name": "PC Gamer 2026 releases",
+          "url": "https://www.pcgamer.com/games/new-pc-games-2026/",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+ PS5 releases",
+          "url": "https://www.gamesradar.com/upcoming-ps5-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.pcgamer.com/games/new-pc-games-2026/",
+      "description": "Командный файтинг по Marvel с яркой стилизацией и быстрыми матчами в формате персонажных боев."
+    },
+    {
+      "id": "verified-2026-grave-seasons",
+      "name": "Grave Seasons",
+      "date": "2026-08-14",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        },
+        {
+          "id": "switch",
+          "name": "Nintendo Switch"
+        }
+      ],
+      "genres": [
+        "Life Sim",
+        "Horror",
+        "Indie"
+      ],
+      "description": "Фермерская RPG с хоррор-поворотом: выращиваете урожай, знакомитесь с жителями и параллельно пытаетесь вычислить серийного убийцу среди соседей.",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/fVy6faURdR9aNH54vYF5bb.jpg",
+      "sources": [
+        {
+          "name": "GamesRadar+ indie releases",
+          "url": "https://www.gamesradar.com/upcoming-indie-games/",
+          "type": "media"
+        },
+        {
+          "name": "Gematsu",
+          "url": "https://www.gematsu.com/2026/03/grave-seasons-launches-august-14",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+ Grave Seasons platform report",
+          "url": "https://www.gamesradar.com/games/simulation/stardew-valley-like-farming-sim-with-a-romanceable-supernatural-serial-killer-gets-an-august-release-date-with-a-demo-coming-soon/",
+          "type": "media"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:20:00.000Z",
+      "sourceUrl": "https://www.gamesradar.com/games/simulation/stardew-valley-like-farming-sim-with-a-romanceable-supernatural-serial-killer-gets-an-august-release-date-with-a-demo-coming-soon/"
+    },
+    {
+      "id": "verified-2026-08-18-the-sinking-city-2",
+      "name": "The Sinking City 2",
+      "date": "2026-08-18",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Survival horror"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PS5 releases",
+          "url": "https://www.gamesradar.com/upcoming-ps5-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/",
+      "description": "Лавкрафтианский survival horror с расследованием, монстрами и мрачным городом, где детективная часть уступает больше места выживанию."
+    },
+    {
+      "id": "verified-2026-08-27-metal-gear-solid-master-collection-vol-2",
+      "name": "Metal Gear Solid: Master Collection Vol. 2",
+      "date": "2026-08-27",
+      "datePrecision": "day",
+      "verificationStatus": "triple_checked",
+      "verifiedAt": "2026-06-24T11:05:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action-adventure",
+        "Stealth"
+      ],
+      "sources": [
+        {
+          "name": "Konami",
+          "url": "https://www.konami.com/mg/mc/vol2/",
+          "type": "official"
+        },
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/new-pc-games-2026/",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+",
+          "url": "https://www.gamesradar.com/upcoming-ps5-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid%3A_Master_Collection",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.konami.com/mg/mc/vol2/",
+      "description": "Вторая подборка классических Metal Gear Solid для современных платформ."
+    },
+    {
+      "id": "verified-2026-08-27-resonance-a-plague-tale-legacy",
+      "name": "Resonance: A Plague Tale Legacy",
+      "date": "2026-08-27",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action-adventure"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ Xbox releases",
+          "url": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
+      "description": "Новая история во вселенной A Plague Tale, заявленная как приключенческая игра с упором на сюжет и атмосферу."
+    },
+    {
+      "id": "verified-2026-08-27-star-wars-zero-company",
+      "name": "Star Wars Zero Company",
+      "date": "2026-08-27",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Turn-based tactics"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PS5 releases",
+          "url": "https://www.gamesradar.com/upcoming-ps5-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/",
+      "description": "Тактическая стратегия во вселенной Star Wars, где игрок собирает отряд и ведет его через пошаговые операции."
+    },
+    {
+      "id": "verified-2026-09-03-the-blood-of-dawnwalker",
+      "name": "The Blood of Dawnwalker",
+      "date": "2026-09-03",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action RPG"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PC releases",
+          "url": "https://www.gamesradar.com/new-pc-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
+      "description": "Темное фэнтези-RPG от ветеранов жанра: вампиры, моральные решения и напряженная история в средневековом мире."
+    },
+    {
+      "id": "verified-2026-09-08-halloween-the-game",
+      "name": "Halloween: The Game",
+      "date": "2026-09-08",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Horror"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PC releases",
+          "url": "https://www.gamesradar.com/new-pc-games/",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+ PS5 releases",
+          "url": "https://www.gamesradar.com/upcoming-ps5-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
+      "description": "Хоррор-игра по культовой серии Halloween с выживанием, преследованием и атмосферой слэшера."
+    },
+    {
+      "id": "verified-2026-09-09-valheim",
+      "name": "Valheim",
+      "date": "2026-09-09",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Sandbox",
+        "Survival"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PC releases",
+          "url": "https://www.gamesradar.com/new-pc-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
+      "description": "Консольный/полный релиз викингского survival-песочницы с строительством, боссами и кооперативным исследованием биомов."
+    },
+    {
+      "id": "verified-2026-09-15-marvels-wolverine",
+      "name": "Marvel's Wolverine",
+      "date": "2026-09-15",
+      "datePrecision": "day",
+      "verificationStatus": "triple_checked",
+      "verifiedAt": "2026-06-24T11:05:00.000Z",
+      "platforms": [
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "Action-adventure"
+      ],
+      "sources": [
+        {
+          "name": "PlayStation",
+          "url": "https://www.playstation.com/en-us/games/marvels-wolverine/",
+          "type": "official"
+        },
+        {
+          "name": "GamesRadar+",
+          "url": "https://www.gamesradar.com/marvels-wolverine-guide/",
+          "type": "media"
+        },
+        {
+          "name": "TechRadar",
+          "url": "https://www.techradar.com/gaming/look-alive-bub-marvels-wolverine-gets-long-awaited-release-date-and-yes-its-still-coming-this-year",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marvel%27s_Wolverine",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.playstation.com/en-us/games/marvels-wolverine/",
+      "description": "Сольный экшен про Росомаху от Insomniac Games с кинематографичной постановкой и ближним боем."
+    },
+    {
+      "id": "verified-2026-09-24-control-resonant",
+      "name": "Control Resonant",
+      "date": "2026-09-24",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action RPG"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PC releases",
+          "url": "https://www.gamesradar.com/new-pc-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
+      "description": "Новая игра во вселенной Control с паранормальными явлениями, боевой системой Remedy и загадками Федерального бюро контроля."
+    },
+    {
+      "id": "verified-2026-09-24-silent-hill-townfall",
+      "name": "Silent Hill: Townfall",
+      "date": "2026-09-24",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "Survival horror"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PS5 releases",
+          "url": "https://www.gamesradar.com/upcoming-ps5-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/",
+      "description": "Психологический хоррор в серии Silent Hill, который делает ставку на тревожную атмосферу и сюжетную неопределенность."
+    },
+    {
+      "id": "verified-2026-09-25-onimusha-way-of-the-sword",
+      "name": "Onimusha: Way of the Sword",
+      "date": "2026-09-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action-adventure"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PS5 releases",
+          "url": "https://www.gamesradar.com/upcoming-ps5-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/",
+      "description": "Возвращение самурайского экшена Capcom: демоны, мечи и современная постановка классической формулы Onimusha."
+    },
+    {
+      "id": "verified-2026-10-02-ace-combat-8-wings-of-theve",
+      "name": "Ace Combat 8: Wings of Theve",
+      "date": "2026-10-02",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Vehicular combat"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PC releases",
+          "url": "https://www.gamesradar.com/new-pc-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
+      "description": "Новая часть авиационного экшена Ace Combat с воздушными боями, драматичной кампанией и аркадной динамикой."
+    },
+    {
+      "id": "verified-2026-10-06-gears-of-war-e-day",
+      "name": "Gears of War: E-Day",
+      "date": "2026-10-06",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "TPS"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+",
+          "url": "https://www.gamesradar.com/games/gears-of-war/gears-of-war-e-day-brings-back-a-feature-the-series-hasnt-supported-in-over-10-years-and-the-coalition-says-making-it-work-was-a-huge-investment/",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+ feature",
+          "url": "https://www.gamesradar.com/games/gears-of-war/active-reload-may-be-an-iconic-gears-of-war-feature-but-that-isnt-going-to-stop-the-coalition-from-making-changes-to-it-for-e-day/",
+          "type": "media"
+        },
+        {
+          "name": "Tom’s Guide",
+          "url": "https://www.tomsguide.com/news/live/xbox-games-showcase-2026-live-updates",
+          "type": "media"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:05:00.000Z",
+      "sourceUrl": "https://www.gamesradar.com/games/gears-of-war/gears-of-war-e-day-brings-back-a-feature-the-series-hasnt-supported-in-over-10-years-and-the-coalition-says-making-it-work-was-a-huge-investment/",
+      "description": "Приквел Gears of War о Дне прорыва, когда саранча впервые вышла на поверхность и началась война за Сера."
+    },
+    {
+      "id": "verified-2026-10-08-hellraiser-revival",
+      "name": "Clive Barker's Hellraiser: Revival",
+      "date": "2026-10-08",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Survival horror",
+        "Action"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PC releases",
+          "url": "https://www.gamesradar.com/new-pc-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
+      "description": "Хоррор по Hellraiser с мрачной телесной эстетикой, сенобитами и упором на сюжетное выживание."
+    },
+    {
+      "id": "verified-2026-10-13-planet-zoo-2",
+      "name": "Planet Zoo 2",
+      "date": "2026-10-13",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ Xbox releases",
+          "url": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/upcoming-xbox-series-x-games/",
+      "description": "Продолжение зоопаркового менеджера: строительство, забота о животных, экономика парка и расширенные инструменты симуляции."
+    },
+    {
+      "id": "verified-2026-10-15-castlevania-belmonts-curse",
+      "name": "Castlevania: Belmont's Curse",
+      "date": "2026-10-15",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T11:25:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Metroidvania"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PS5 releases",
+          "url": "https://www.gamesradar.com/upcoming-ps5-games/",
+          "type": "media"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/",
+      "description": "Новая Castlevania с охотой на чудовищ, готической атмосферой и наследием семьи Бельмонтов."
+    },
+    {
+      "id": "verified-2026-10-23-call-of-duty-modern-warfare-4",
+      "name": "Call of Duty: Modern Warfare 4",
+      "date": "2026-10-23",
+      "datePrecision": "day",
+      "verificationStatus": "triple_checked",
+      "verifiedAt": "2026-06-24T11:05:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "FPS"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+",
+          "url": "https://www.gamesradar.com/games/call-of-duty/modern-warfare-4-revealed-as-infinity-ward-kickstarts-a-new-chapter-for-call-of-duty-with-an-ambitious-campaign-multiplayer-overhaul-and-a-new-extraction-experience/",
+          "type": "media"
+        },
+        {
+          "name": "TechRadar",
+          "url": "https://www.techradar.com/gaming/consoles-pc/modern-warfare-4-developer-breaks-down-the-most-advanced-weapon-simulation-in-call-of-duty-history-we-want-them-to-feel-like-real-weapons-but-they-shouldnt-feel-frustrating",
+          "type": "media"
+        },
+        {
+          "name": "Windows Central",
+          "url": "https://www.windowscentral.com/gaming/call-of-duty/modern-warfare-4-dmz-reveal",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/games/call-of-duty/modern-warfare-4-revealed-as-infinity-ward-kickstarts-a-new-chapter-for-call-of-duty-with-an-ambitious-campaign-multiplayer-overhaul-and-a-new-extraction-experience/",
+      "description": "Новая часть Modern Warfare с кампанией, мультиплеером и крупной сезонной поддержкой после релиза."
+    },
+    {
+      "id": "verified-2026-10-29-phantom-blade-zero",
+      "name": "Phantom Blade Zero",
+      "date": "2026-10-29",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:20:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "Action RPG"
+      ],
+      "sources": [
+        {
+          "name": "GamesRadar+ PC releases",
+          "url": "https://www.gamesradar.com/new-pc-games/",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+ PS5 exclusives",
+          "url": "https://www.gamesradar.com/ps5-exclusives/",
+          "type": "media"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
+      "description": "Стильный экшен-RPG с быстрым боем на мечах, темной китайской эстетикой и акцентом на зрелищные поединки."
+    },
+    {
+      "id": "verified-2026-11-19-grand-theft-auto-vi",
+      "name": "Grand Theft Auto VI",
+      "date": "2026-11-19",
+      "datePrecision": "day",
+      "verificationStatus": "triple_checked",
+      "verifiedAt": "2026-06-24T10:45:00.000Z",
+      "platforms": [
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action-adventure"
+      ],
+      "sources": [
+        {
+          "name": "Rockstar Games",
+          "url": "https://www.rockstargames.com/VI",
+          "type": "official"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/news/816005/grand-theft-auto-vi-gta-g-delayed-november-2026",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+",
+          "url": "https://www.gamesradar.com/gta-6-guide/",
+          "type": "media"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+          "type": "index"
+        }
+      ],
+      "sourceUrl": "https://www.rockstargames.com/VI",
+      "description": "Криминальная open-world игра Rockstar в штате Леонида и Vice City, с двумя главными героями и большим современным городом."
+    },
+    {
+      "id": "verified-2026-pragmata-window",
+      "name": "Pragmata",
+      "date": "2026-12-31",
+      "dateLabel": "2026, точный день не объявлен",
+      "datePrecision": "year",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "description": "Sci-fi экшен Capcom про астронавта и андроида на лунной станции. В календаре стоит как неточная дата, потому что подтвержден только год релиза.",
+      "sources": [
+        {
+          "name": "GamesRadar+ PC releases",
+          "url": "https://www.gamesradar.com/new-pc-games/",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+ PS5 releases",
+          "url": "https://www.gamesradar.com/upcoming-ps5-games/",
+          "type": "media"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:20:00.000Z",
+      "sourceUrl": "https://www.gamesradar.com/new-pc-games/"
+    },
+    {
+      "id": "verified-2027-02-23-fable",
+      "name": "Fable",
+      "date": "2027-02-23",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action RPG"
+      ],
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/fable-4-reboot-guide/",
+          "type": "media"
+        },
+        {
+          "name": "GamesRadar+",
+          "url": "https://www.gamesradar.com/games/rpg/fable-release-date-finally-confirmed-by-xbox-after-the-rpgs-recent-delay-now-set-for-february-2027/",
+          "type": "media"
+        },
+        {
+          "name": "Windows Central",
+          "url": "https://www.windowscentral.com/gaming/xbox/fable-showed-off-darkest-trailer-yet-and-finally-revealed-new-release-date",
+          "type": "media"
+        },
+        {
+          "name": "TechRadar",
+          "url": "https://www.techradar.com/gaming/fable-will-feature-over-150-000-lines-of-dialogue-playground-games-confirms-weve-had-multiple-studios-set-up-running-in-parallel-for-over-1000-hours-just-this-year-alone-just-recording-vo",
+          "type": "media"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-24T12:05:00.000Z",
+      "sourceUrl": "https://www.pcgamer.com/fable-4-reboot-guide/",
+      "description": "Перезапуск Fable от Playground Games: сказочное фэнтези, британский юмор, моральный выбор и открытый мир Альбиона."
+    }
+  ]
+}

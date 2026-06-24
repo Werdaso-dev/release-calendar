@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Календарь релизов игр</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero" aria-label="Сводка календаря релизов">
+        <img class="hero__image" src="./assets/calendar-banner.png" alt="" />
+        <div class="hero__shade"></div>
+        <div class="hero__content">
+          <div>
+            <p class="eyebrow">PC / PlayStation / Xbox / Nintendo Switch</p>
+            <h1>Календарь релизов игр</h1>
+          </div>
+          <div class="hero__meta">
+            <span id="updateStatus">Загрузка данных...</span>
+            <span id="releaseCount">0 релизов</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Фильтры календаря">
+        <div class="field field--search">
+          <label for="searchInput">Поиск</label>
+          <input id="searchInput" type="search" placeholder="Название игры" autocomplete="off" />
+        </div>
+
+        <div class="segmented" role="group" aria-label="Платформы">
+          <button class="segment is-active" type="button" data-platform="all">Все</button>
+          <button class="segment" type="button" data-platform="pc">PC</button>
+          <button class="segment" type="button" data-platform="playstation">PlayStation</button>
+          <button class="segment" type="button" data-platform="xbox">Xbox</button>
+          <button class="segment" type="button" data-platform="switch">Switch</button>
+        </div>
+
+        <div class="field">
+          <label for="genreSelect">Жанр</label>
+          <select id="genreSelect">
+            <option value="all">Все жанры</option>
+          </select>
+        </div>
+
+        <label class="toggle">
+          <input id="confirmedOnly" type="checkbox" />
+          <span>Только точные даты</span>
+        </label>
+      </section>
+
+      <section class="month-bar" aria-label="Навигация по месяцам">
+        <button class="icon-button" id="prevMonth" type="button" aria-label="Предыдущий месяц">‹</button>
+        <h2 id="monthTitle">Месяц</h2>
+        <button class="icon-button" id="nextMonth" type="button" aria-label="Следующий месяц">›</button>
+        <button class="today-button" id="todayButton" type="button">Сегодня</button>
+      </section>
+
+      <section class="content-grid">
+        <div class="calendar-panel">
+          <div class="weekday-row" aria-hidden="true">
+            <span>Пн</span>
+            <span>Вт</span>
+            <span>Ср</span>
+            <span>Чт</span>
+            <span>Пт</span>
+            <span>Сб</span>
+            <span>Вс</span>
+          </div>
+          <div id="calendarGrid" class="calendar-grid" aria-label="Календарь"></div>
+        </div>
+
+        <aside class="release-list" aria-label="Ближайшие релизы">
+          <div class="list-heading">
+            <h2>Ближайшее</h2>
+            <span id="visibleCount">0</span>
+          </div>
+          <div id="releaseList" class="release-stack"></div>
+        </aside>
+      </section>
+    </main>
+
+    <div class="modal" id="dayModal" aria-hidden="true">
+      <button class="modal__backdrop" id="modalBackdrop" type="button" aria-label="Закрыть окно"></button>
+      <section class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal__header">
+          <div>
+            <p class="eyebrow modal__eyebrow">Релизы дня</p>
+            <h2 id="modalTitle">Дата</h2>
+          </div>
+          <button class="icon-button" id="modalClose" type="button" aria-label="Закрыть окно">×</button>
+        </div>
+        <div class="modal__body" id="modalBody"></div>
+      </section>
+    </div>
+
+    <template id="releaseTemplate">
+      <article class="release-card">
+        <div class="release-card__media" aria-hidden="true">
+          <img class="release-card__image" alt="" />
+          <span class="release-card__fallback"></span>
+        </div>
+        <div class="release-card__content">
+          <div>
+            <h3></h3>
+            <p class="release-card__date"></p>
+            <p class="release-card__description"></p>
+          </div>
+          <div class="release-card__tags"></div>
+        </div>
+      </article>
+    </template>
+
+    <script src="./app.js?v=20260624-switch" type="module"></script>
+  </body>
+</html>

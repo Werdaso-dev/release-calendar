@@ -1,0 +1,912 @@
+{
+  "updatedAt": "2026-06-24T10:25:00.000Z",
+  "sourceName": "Wikipedia / RAWG API",
+  "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+  "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Nintendo Switch"
+  ],
+  "range": {
+    "from": "2026-06-25",
+    "until": "2026-12-03"
+  },
+  "note": "Архив старого стартового списка из одного источника. Эти записи не считаются проверенными и не используются основным календарем, пока каждая дата не будет подтверждена минимум тремя независимыми источниками.",
+  "releases": [
+    {
+      "id": "wiki-2026-06-25-abyssus",
+      "name": "Abyssus",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "FPS",
+        "Roguelike"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-06-25-dead-or-alive-6-last-round",
+      "name": "Dead or Alive 6 Last Round",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Fighting"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-06-25-tevi-fauna-arcana",
+      "name": "Tevi: Fauna Arcana",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Metroidvania",
+        "Bullet hell"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-06-25-villion-code",
+      "name": "Villion: Code",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-06-29-dokapon-321-super-collection",
+      "name": "Dokapon 3-2-1 Super Collection!",
+      "date": "2026-06-29",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-06-30-deathbulge-battle-of-the-bands",
+      "name": "Deathbulge: Battle of the Bands",
+      "date": "2026-06-30",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-06-30-momento",
+      "name": "Momento",
+      "date": "2026-06-30",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-06-30-monopoly-star-wars-heroes-vs-villains",
+      "name": "Monopoly: Star Wars Heroes vs. Villains",
+      "date": "2026-06-30",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Digital tabletop"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-07-02-ganbare-goemon-daishuugou",
+      "name": "Ganbare Goemon! Daishuugou!",
+      "date": "2026-07-02",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "Action-adventure",
+        "RPG",
+        "Puzzle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-07-07-doom-the-dark-ages-revelations",
+      "name": "Doom: The Dark Ages - Revelations",
+      "date": "2026-07-07",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "FPS"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-07-09-assassins-creed-black-flag-resynced",
+      "name": "Assassin's Creed Black Flag Resynced",
+      "date": "2026-07-09",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action-adventure"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-07-09-backyard-baseball",
+      "name": "Backyard Baseball",
+      "date": "2026-07-09",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Sports"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-07-09-ea-sports-college-football-27",
+      "name": "EA Sports College Football 27",
+      "date": "2026-07-09",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Sports"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-07-10-echoes-of-aincrad",
+      "name": "Echoes of Aincrad",
+      "date": "2026-07-10",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action RPG"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-07-10-palworld",
+      "name": "Palworld",
+      "date": "2026-07-10",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action-adventure",
+        "Survival",
+        "Monster tamer"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-07-15-the-mound-omen-of-cthulhu",
+      "name": "The Mound: Omen of Cthulhu",
+      "date": "2026-07-15",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Horror",
+        "Action-adventure"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-07-28-halo-campaign-evolved",
+      "name": "Halo: Campaign Evolved",
+      "date": "2026-07-28",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "FPS"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-07-31-the-relic-first-guardian",
+      "name": "The Relic: First Guardian",
+      "date": "2026-07-31",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "Action RPG"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-08-04-beast-of-reincarnation",
+      "name": "Beast of Reincarnation",
+      "date": "2026-08-04",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action RPG"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-08-06-marvel-tokon-fighting-souls",
+      "name": "Marvel Tokon: Fighting Souls",
+      "date": "2026-08-06",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "Fighting"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-08-18-the-sinking-city-2",
+      "name": "The Sinking City 2",
+      "date": "2026-08-18",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Survival horror"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-08-27-metal-gear-solid-master-collection-vol-2",
+      "name": "Metal Gear Solid: Master Collection Vol. 2",
+      "date": "2026-08-27",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action-adventure",
+        "Stealth"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-08-27-resonance-a-plague-tale-legacy",
+      "name": "Resonance: A Plague Tale Legacy",
+      "date": "2026-08-27",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action-adventure"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-08-27-star-wars-zero-company",
+      "name": "Star Wars Zero Company",
+      "date": "2026-08-27",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Turn-based tactics"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-09-03-the-blood-of-dawnwalker",
+      "name": "The Blood of Dawnwalker",
+      "date": "2026-09-03",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action RPG"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-09-08-halloween-the-game",
+      "name": "Halloween: The Game",
+      "date": "2026-09-08",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Horror"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-09-09-valheim",
+      "name": "Valheim",
+      "date": "2026-09-09",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Sandbox",
+        "Survival"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-09-15-marvels-wolverine",
+      "name": "Marvel's Wolverine",
+      "date": "2026-09-15",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "Action-adventure"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-09-17-warhammer-40000-dawn-of-war-iv",
+      "name": "Warhammer 40,000: Dawn of War IV",
+      "date": "2026-09-17",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "RTS"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-09-24-control-resonant",
+      "name": "Control Resonant",
+      "date": "2026-09-24",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action RPG"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-09-24-silent-hill-townfall",
+      "name": "Silent Hill: Townfall",
+      "date": "2026-09-24",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "Survival horror"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-09-25-onimusha-way-of-the-sword",
+      "name": "Onimusha: Way of the Sword",
+      "date": "2026-09-25",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action-adventure"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-10-02-ace-combat-8-wings-of-theve",
+      "name": "Ace Combat 8: Wings of Theve",
+      "date": "2026-10-02",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Vehicular combat"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-10-08-hellraiser-revival",
+      "name": "Clive Barker's Hellraiser: Revival",
+      "date": "2026-10-08",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Survival horror",
+        "Action"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-10-13-planet-zoo-2",
+      "name": "Planet Zoo 2",
+      "date": "2026-10-13",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-10-23-call-of-duty-modern-warfare-4",
+      "name": "Call of Duty: Modern Warfare 4",
+      "date": "2026-10-23",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "FPS"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-10-29-phantom-blade-zero",
+      "name": "Phantom Blade Zero",
+      "date": "2026-10-29",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        }
+      ],
+      "genres": [
+        "Action RPG"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-11-03-godzilla-destroy-all-monsters-melee-remastered",
+      "name": "Godzilla: Destroy All Monsters Melee Remastered",
+      "date": "2026-11-03",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Fighting"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-11-19-grand-theft-auto-vi",
+      "name": "Grand Theft Auto VI",
+      "date": "2026-11-19",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "Action-adventure"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    },
+    {
+      "id": "wiki-2026-12-03-dragon-quest-monsters-the-withered-world",
+      "name": "Dragon Quest Monsters: The Withered World",
+      "date": "2026-12-03",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox"
+        }
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026"
+    }
+  ]
+}
