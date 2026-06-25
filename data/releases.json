@@ -164,6 +164,68 @@
       "releaseType": "game"
     },
     {
+      "id": "verified-2026-06-25-deltarune-chapter-5",
+      "name": "DELTARUNE Chapter 5",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-25T14:10:36.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "id": "switch",
+          "name": "Nintendo Switch"
+        }
+      ],
+      "genres": [
+        "RPG",
+        "Adventure",
+        "Bullet Hell"
+      ],
+      "description": "Пятая глава DELTARUNE продолжает эпизодическую RPG Toby Fox: новый сюжетный фрагмент, сражения с уклонением от атак и развитие параллельной истории Undertale. Для владельцев игры глава выходит как бесплатное обновление.",
+      "sources": [
+        {
+          "name": "GamesRadar+ Switch releases",
+          "url": "https://www.gamesradar.com/upcoming-nintendo-switch-games/",
+          "type": "media"
+        },
+        {
+          "name": "DELTARUNE official site",
+          "url": "https://deltarune.com/",
+          "type": "official"
+        },
+        {
+          "name": "Toby Fox newsletter",
+          "url": "https://toby.fangamer.com/newsletters/ch5-release-day/",
+          "type": "official"
+        },
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/1671210/DELTARUNE/",
+          "type": "store"
+        },
+        {
+          "name": "Nintendo eShop",
+          "url": "https://www.nintendo.com/us/store/products/deltarune-switch/",
+          "type": "store"
+        },
+        {
+          "name": "PlayStation Store",
+          "url": "https://store.playstation.com/en-us/concept/233495",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://www.gamesradar.com/upcoming-nintendo-switch-games/",
+      "releaseType": "dlc"
+    },
+    {
       "id": "verified-2026-06-25-my-merry-may-with-be",
       "name": "My Merry May with be",
       "date": "2026-06-25",
