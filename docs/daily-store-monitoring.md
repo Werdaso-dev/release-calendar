@@ -24,6 +24,8 @@ Add a release to `data/releases.json` only when all of these are true:
 
 Do not add soundtrack-only releases, art books, demos, beta tests, preorder-only pages, trailers, currency packs, cosmetic-only bundles, hardware items, or patches.
 
+For Steam, do not rely only on the visible release date text. Steam can show a previous calendar day depending on region/timezone while the game appears in today's new releases for Europe/Moscow. When this happens, treat the release as today's Moscow-date release if the app is no longer coming soon, appears in Steam's current new releases, and Steam news/store metadata confirms a launch or launch sale around today's date.
+
 For small indie games, one official store page can be enough for the release date when the store clearly shows the exact date. When available, add a second source from the official site, publisher page, Gematsu, GamesRadar, TechRadar, Nintendo Life, Push Square, Pure Xbox, PC Gamer, Rock Paper Shotgun, or another established games outlet.
 
 ## How to add a release

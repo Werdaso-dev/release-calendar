@@ -193,6 +193,69 @@
       "releaseType": "game"
     },
     {
+      "id": "verified-2026-06-25-tetra-block",
+      "name": "Tetra Block",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-25T00:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Puzzle",
+        "Arcade",
+        "Indie"
+      ],
+      "description": "Быстрая 2D-аркадная головоломка с падающими и поднимающимися блоками: нужно очищать линии, собирать комбо и держаться как можно дольше ради высокого счета.",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4812260/Tetra_Block/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4812260/Tetra_Block/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-namco-legendary-mountains",
+      "name": "NAMCO LEGENDARY Mountains",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-25T00:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Puzzle",
+        "Arcade",
+        "Casual"
+      ],
+      "description": "3D-головоломка с воксельными версиями классических персонажей Namco: PAC-MAN, DIG DUG, XEVIOUS, MAPPY и THE TOWER OF DRUAGA. Игрок бросает и объединяет фигуры, набирая очки.",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4459850/NAMCO_LEGENDARY_Mountains/",
+          "type": "store"
+        },
+        {
+          "name": "Steam launch announcement",
+          "url": "https://store.steampowered.com/news/app/4459850",
+          "type": "official"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4459850/NAMCO_LEGENDARY_Mountains/",
+      "releaseType": "game"
+    },
+    {
       "id": "verified-2026-moonlight-peaks",
       "name": "Moonlight Peaks",
       "date": "2026-07-07",
