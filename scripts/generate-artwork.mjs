@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -9,12 +9,21 @@ const data = JSON.parse(await readFile(dataPath, "utf8"));
 
 await mkdir(outputDir, { recursive: true });
 
-for (const release of data.releases || []) {
+const releases = data.releases || [];
+const expectedFiles = new Set(releases.map((release) => `${release.id}.svg`));
+
+for (const file of await readdir(outputDir)) {
+  if (file.endsWith(".svg") && !expectedFiles.has(file)) {
+    await unlink(resolve(outputDir, file));
+  }
+}
+
+for (const release of releases) {
   const svg = makeArtwork(release);
   await writeFile(resolve(outputDir, `${release.id}.svg`), svg);
 }
 
-console.log(`Generated ${(data.releases || []).length} local artwork cards`);
+console.log(`Generated ${releases.length} local artwork cards`);
 
 function makeArtwork(release) {
   const theme = getTheme(release);

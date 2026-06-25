@@ -8,6 +8,8 @@ const state = {
   confirmedOnly: false,
 };
 
+const RECENT_RELEASE_DAYS = 14;
+
 const els = {
   updateStatus: document.querySelector("#updateStatus"),
   releaseCount: document.querySelector("#releaseCount"),
@@ -178,13 +180,16 @@ function fillGenres() {
 }
 
 function applyFilters() {
+  const visibleFloor = getReleaseVisibilityFloor();
+
   state.filtered = state.releases.filter((release) => {
     const platformMatch =
       state.platform === "all" || release.platforms.some((platform) => platform.id === state.platform);
     const genreMatch = state.genre === "all" || release.genres.includes(state.genre);
     const searchMatch = !state.search || release.name.toLowerCase().includes(state.search);
     const precisionMatch = !state.confirmedOnly || release.datePrecision === "day";
-    return platformMatch && genreMatch && searchMatch && precisionMatch;
+    const visibilityMatch = release.datePrecision !== "day" || release.dateObject >= visibleFloor;
+    return platformMatch && genreMatch && searchMatch && precisionMatch && visibilityMatch;
   });
 
   if (state.filtered.length) {
@@ -204,6 +209,10 @@ function applyFilters() {
 function getBestVisibleRelease(releases) {
   const today = new Date();
   return releases.find((release) => release.dateObject >= today) || releases[0];
+}
+
+function getReleaseVisibilityFloor() {
+  return addDays(startOfDay(new Date()), -RECENT_RELEASE_DAYS);
 }
 
 function render() {
@@ -297,7 +306,11 @@ function renderList() {
   const monthEnd = addMonths(state.currentMonth, 1);
   const visible = state.search
     ? state.filtered
-    : state.filtered.filter((release) => release.dateObject >= state.currentMonth && release.dateObject < monthEnd);
+    : state.filtered.filter(
+        (release) =>
+          (release.dateObject >= state.currentMonth && release.dateObject < monthEnd) ||
+          isRecentRelease(release),
+      );
 
   if (!visible.length) {
     els.releaseList.innerHTML = state.search
@@ -309,6 +322,12 @@ function renderList() {
   for (const release of visible) {
     els.releaseList.append(createReleaseCard(release));
   }
+}
+
+function isRecentRelease(release) {
+  const today = startOfDay(new Date());
+  const floor = addDays(today, -RECENT_RELEASE_DAYS);
+  return release.datePrecision === "day" && release.dateObject < today && release.dateObject >= floor;
 }
 
 function createReleaseCard(release, options = {}) {
@@ -475,6 +494,10 @@ function formatDateKey(date) {
 
 function startOfMonth(date) {
   return new Date(date.getFullYear(), date.getMonth(), 1);
+}
+
+function startOfDay(date) {
+  return new Date(date.getFullYear(), date.getMonth(), date.getDate());
 }
 
 function startOfWeekMonday(date) {
