@@ -58,9 +58,9 @@ https://your-github-name.github.io/repository-name/
 
 `data/candidate-releases.json` — ежедневный список кандидатов из RAWG. Он нужен, чтобы быстрее находить новые релизы, но не заменяет проверку источников. Nintendo Switch 2 в календарь намеренно не добавляется; для Nintendo берется только оригинальный Nintendo Switch.
 
-Отдельно используется утренний мониторинг магазинов: Steam, PlayStation Store, Microsoft Store / Xbox Store и Nintendo eShop для оригинального Nintendo Switch. Правила проверки описаны в `docs/daily-store-monitoring.md`. Игры и playable/content DLC добавляются в основной календарь только когда магазин или официальный источник явно показывает точную сегодняшнюю дату релиза и подходящую платформу.
+Отдельно используется регулярный мониторинг магазинов: Steam, PlayStation Store, Microsoft Store / Xbox Store и Nintendo eShop для оригинального Nintendo Switch. Правила проверки описаны в `docs/daily-store-monitoring.md`. Игры и playable/content DLC добавляются в основной календарь только когда магазин или официальный источник явно показывает точную сегодняшнюю дату релиза и подходящую платформу.
 
-Ежедневная Codex-автоматизация `Daily game store release monitor` запускается в 09:00 по Москве, проверяет магазины и игровые СМИ, обновляет `data/releases.json`, пересобирает локальные карточки, делает commit и отправляет изменения в `origin/main`. После push GitHub Pages workflow публикует новую версию сайта.
+Codex-автоматизация `Frequent game store release monitor` запускается каждые 2 часа, проверяет магазины и игровые СМИ, обновляет `data/releases.json`, пересобирает локальные карточки, делает commit и отправляет изменения в `origin/main`. После push GitHub Pages workflow публикует новую версию сайта.
 
 Чтобы GitHub Actions каждый день обновлял список кандидатов:
 

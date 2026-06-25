@@ -1,6 +1,6 @@
 # Daily Store Monitoring
 
-Every morning, check new releases for the current date in the user's timezone, Europe/Moscow.
+Check new releases repeatedly during the day for the current date in the user's timezone, Europe/Moscow.
 
 ## Stores to check
 
@@ -66,7 +66,7 @@ If no new verified releases are found, do not change the site. In the run summar
 
 ## Current automation
 
-Codex has a daily cron automation named `Daily game store release monitor`. It runs at 09:00 Europe/Moscow in this repository and must independently:
+Codex has a cron automation named `Frequent game store release monitor`. It runs every two hours in this repository and must independently:
 
 1. Check today's exact-date releases without waiting for a user prompt.
 2. Add verified games and playable/content DLC to `data/releases.json`.
