@@ -8,6 +8,7 @@ Every morning, check new releases for the current date in the user's timezone, E
 - PlayStation Store
 - Microsoft Store / Xbox Store
 - Nintendo eShop for the original Nintendo Switch only
+- Established games media when store browsing is incomplete: Gematsu, GamesRadar, TechRadar, Nintendo Life, Push Square, Pure Xbox, PC Gamer, Rock Paper Shotgun
 
 Do not add Nintendo Switch 2 releases unless the same source also explicitly lists the original Nintendo Switch.
 
@@ -52,11 +53,21 @@ Set `releaseType`:
 After editing:
 
 ```bash
-npm run validate
-npm run build
+node scripts/validate-releases.mjs
+node scripts/build-site.mjs
 git add data/releases.json assets/generated-artwork app.js package.json README.md scripts docs
 git commit -m "Add daily store releases"
 git push
 ```
 
-If no new verified releases are found, do not change the site.
+If no new verified releases are found, do not change the site. In the run summary, report which stores and media sources were checked.
+
+## Current automation
+
+Codex has a daily cron automation named `Daily game store release monitor`. It runs at 09:00 Europe/Moscow in this repository and must independently:
+
+1. Check today's exact-date releases without waiting for a user prompt.
+2. Add verified games and playable/content DLC to `data/releases.json`.
+3. Rebuild generated artwork.
+4. Commit and push changes to `origin/main` so GitHub Pages deploys the updated site.
+5. Leave the repository unchanged when nothing reliable is found.

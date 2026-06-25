@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T11:07:09Z",
+  "updatedAt": "2026-06-25T00:00:00Z",
   "sourceName": "GamesRadar+, Gematsu, Steam и игровые СМИ",
   "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
   "platforms": [
@@ -127,6 +127,69 @@
         }
       ],
       "sourceUrl": "https://www.gamesradar.com/upcoming-ps5-games/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-saeko-giantess-dating-sim",
+      "name": "SAEKO: Giantess Dating Sim",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-25T00:00:00.000Z",
+      "platforms": [
+        {
+          "id": "switch",
+          "name": "Nintendo Switch"
+        }
+      ],
+      "genres": [
+        "Adventure",
+        "Visual Novel",
+        "Horror"
+      ],
+      "description": "Мрачная визуальная новелла про героя, уменьшенного до крошечного размера и вынужденного выживать рядом с гигантской девушкой Саэко. Релиз 25 июня относится к версии для оригинального Nintendo Switch.",
+      "sources": [
+        {
+          "name": "Gematsu",
+          "url": "https://www.gematsu.com/2026/02/saeko-giantess-dating-sim-coming-to-switch-on-june-25",
+          "type": "media"
+        },
+        {
+          "name": "HYPER REAL announcement",
+          "url": "https://twitter.com/HYPERREAL_jp/status/2026900053059842506",
+          "type": "official"
+        }
+      ],
+      "sourceUrl": "https://www.gematsu.com/2026/02/saeko-giantess-dating-sim-coming-to-switch-on-june-25",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-my-merry-may-with-be",
+      "name": "My Merry May with be",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-25T00:00:00.000Z",
+      "platforms": [
+        {
+          "id": "switch",
+          "name": "Nintendo Switch"
+        }
+      ],
+      "genres": [
+        "Visual Novel",
+        "Romance",
+        "Sci-Fi"
+      ],
+      "description": "Ремастер-сборник научно-фантастических романтических визуальных новелл My Merry May и My Merry Maybe с дополнительными сценариями. Заявлен японский релиз для оригинального Nintendo Switch.",
+      "sources": [
+        {
+          "name": "Gematsu",
+          "url": "https://www.gematsu.com/2026/03/sci-fi-romance-visual-novel-collection-my-merry-may-with-be-announced-for-switch",
+          "type": "media"
+        }
+      ],
+      "sourceUrl": "https://www.gematsu.com/2026/03/sci-fi-romance-visual-novel-collection-my-merry-may-with-be-announced-for-switch",
       "releaseType": "game"
     },
     {
