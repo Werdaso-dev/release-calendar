@@ -318,6 +318,35 @@
       "releaseType": "game"
     },
     {
+      "id": "verified-2026-06-25-directors-cut-train",
+      "name": "Directors cut: Train",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-25T00:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Adventure",
+        "Simulation",
+        "Indie"
+      ],
+      "description": "Небольшая инди-игра о поездке на поезде в формате атмосферного приключения. Внесена по Steam-новинкам за текущую дату по Москве, с учетом сдвига видимой даты Steam.",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4630400/Directors_cut_Train/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4630400/Directors_cut_Train/",
+      "releaseType": "game"
+    },
+    {
       "id": "verified-2026-moonlight-peaks",
       "name": "Moonlight Peaks",
       "date": "2026-07-07",
