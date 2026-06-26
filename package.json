@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node scripts/build-site.mjs",
     "generate:artwork": "node scripts/generate-artwork.mjs",
+    "monitor:today": "node scripts/find-today-releases.mjs",
     "update:candidates": "node scripts/update-rawg.mjs",
     "validate": "node scripts/validate-releases.mjs",
     "serve": "python3 -m http.server 4173"

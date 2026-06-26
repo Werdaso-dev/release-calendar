@@ -10,6 +10,14 @@ Check new releases repeatedly during the day for the current date in the user's 
 - Nintendo eShop for the original Nintendo Switch only
 - Established games media when store browsing is incomplete: Gematsu, GamesRadar, TechRadar, Nintendo Life, Push Square, Pure Xbox, PC Gamer, Rock Paper Shotgun
 
+Start with the fast monitor script:
+
+```bash
+node scripts/find-today-releases.mjs
+```
+
+This script checks Steam with timeouts and prints a small JSON list of candidates that are not already in `data/releases.json`. Use it as the first pass before doing any manual browsing.
+
 Do not add Nintendo Switch 2 releases unless the same source also explicitly lists the original Nintendo Switch.
 
 ## What counts as addable
