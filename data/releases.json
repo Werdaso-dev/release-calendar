@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T00:00:00Z",
+  "updatedAt": "2026-06-26T06:00:00Z",
   "sourceName": "GamesRadar+, Gematsu, Steam и игровые СМИ",
   "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
   "platforms": [
@@ -130,40 +130,6 @@
       "releaseType": "game"
     },
     {
-      "id": "verified-2026-06-25-saeko-giantess-dating-sim",
-      "name": "SAEKO: Giantess Dating Sim",
-      "date": "2026-06-25",
-      "datePrecision": "day",
-      "verificationStatus": "verified",
-      "verifiedAt": "2026-06-25T00:00:00.000Z",
-      "platforms": [
-        {
-          "id": "switch",
-          "name": "Nintendo Switch"
-        }
-      ],
-      "genres": [
-        "Adventure",
-        "Visual Novel",
-        "Horror"
-      ],
-      "description": "Мрачная визуальная новелла про героя, уменьшенного до крошечного размера и вынужденного выживать рядом с гигантской девушкой Саэко. Релиз 25 июня относится к версии для оригинального Nintendo Switch.",
-      "sources": [
-        {
-          "name": "Gematsu",
-          "url": "https://www.gematsu.com/2026/02/saeko-giantess-dating-sim-coming-to-switch-on-june-25",
-          "type": "media"
-        },
-        {
-          "name": "HYPER REAL announcement",
-          "url": "https://twitter.com/HYPERREAL_jp/status/2026900053059842506",
-          "type": "official"
-        }
-      ],
-      "sourceUrl": "https://www.gematsu.com/2026/02/saeko-giantess-dating-sim-coming-to-switch-on-june-25",
-      "releaseType": "game"
-    },
-    {
       "id": "verified-2026-06-25-deltarune-chapter-5",
       "name": "DELTARUNE Chapter 5",
       "date": "2026-06-25",
@@ -226,6 +192,35 @@
       "releaseType": "dlc"
     },
     {
+      "id": "verified-2026-06-25-directors-cut-train",
+      "name": "Directors cut: Train",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-25T00:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Adventure",
+        "Simulation",
+        "Indie"
+      ],
+      "description": "Небольшая инди-игра о поездке на поезде в формате атмосферного приключения. Внесена по Steam-новинкам за текущую дату по Москве, с учетом сдвига видимой даты Steam.",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4630400/Directors_cut_Train/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4630400/Directors_cut_Train/",
+      "releaseType": "game"
+    },
+    {
       "id": "verified-2026-06-25-my-merry-may-with-be",
       "name": "My Merry May with be",
       "date": "2026-06-25",
@@ -252,35 +247,6 @@
         }
       ],
       "sourceUrl": "https://www.gematsu.com/2026/03/sci-fi-romance-visual-novel-collection-my-merry-may-with-be-announced-for-switch",
-      "releaseType": "game"
-    },
-    {
-      "id": "verified-2026-06-25-tetra-block",
-      "name": "Tetra Block",
-      "date": "2026-06-25",
-      "datePrecision": "day",
-      "verificationStatus": "verified",
-      "verifiedAt": "2026-06-25T00:00:00.000Z",
-      "platforms": [
-        {
-          "id": "pc",
-          "name": "PC"
-        }
-      ],
-      "genres": [
-        "Puzzle",
-        "Arcade",
-        "Indie"
-      ],
-      "description": "Быстрая 2D-аркадная головоломка с падающими и поднимающимися блоками: нужно очищать линии, собирать комбо и держаться как можно дольше ради высокого счета.",
-      "sources": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/4812260/Tetra_Block/",
-          "type": "store"
-        }
-      ],
-      "sourceUrl": "https://store.steampowered.com/app/4812260/Tetra_Block/",
       "releaseType": "game"
     },
     {
@@ -318,35 +284,6 @@
       "releaseType": "game"
     },
     {
-      "id": "verified-2026-06-25-directors-cut-train",
-      "name": "Directors cut: Train",
-      "date": "2026-06-25",
-      "datePrecision": "day",
-      "verificationStatus": "verified",
-      "verifiedAt": "2026-06-25T00:00:00.000Z",
-      "platforms": [
-        {
-          "id": "pc",
-          "name": "PC"
-        }
-      ],
-      "genres": [
-        "Adventure",
-        "Simulation",
-        "Indie"
-      ],
-      "description": "Небольшая инди-игра о поездке на поезде в формате атмосферного приключения. Внесена по Steam-новинкам за текущую дату по Москве, с учетом сдвига видимой даты Steam.",
-      "sources": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/4630400/Directors_cut_Train/",
-          "type": "store"
-        }
-      ],
-      "sourceUrl": "https://store.steampowered.com/app/4630400/Directors_cut_Train/",
-      "releaseType": "game"
-    },
-    {
       "id": "verified-2026-06-25-never-ending-hero-rpg",
       "name": "Never Ending Hero RPG",
       "date": "2026-06-25",
@@ -373,6 +310,159 @@
         }
       ],
       "sourceUrl": "https://store.steampowered.com/app/4789260/Never_Ending_Hero_RPG/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-saeko-giantess-dating-sim",
+      "name": "SAEKO: Giantess Dating Sim",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-25T00:00:00.000Z",
+      "platforms": [
+        {
+          "id": "switch",
+          "name": "Nintendo Switch"
+        }
+      ],
+      "genres": [
+        "Adventure",
+        "Visual Novel",
+        "Horror"
+      ],
+      "description": "Мрачная визуальная новелла про героя, уменьшенного до крошечного размера и вынужденного выживать рядом с гигантской девушкой Саэко. Релиз 25 июня относится к версии для оригинального Nintendo Switch.",
+      "sources": [
+        {
+          "name": "Gematsu",
+          "url": "https://www.gematsu.com/2026/02/saeko-giantess-dating-sim-coming-to-switch-on-june-25",
+          "type": "media"
+        },
+        {
+          "name": "HYPER REAL announcement",
+          "url": "https://twitter.com/HYPERREAL_jp/status/2026900053059842506",
+          "type": "official"
+        }
+      ],
+      "sourceUrl": "https://www.gematsu.com/2026/02/saeko-giantess-dating-sim-coming-to-switch-on-june-25",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-tetra-block",
+      "name": "Tetra Block",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-25T00:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Puzzle",
+        "Arcade",
+        "Indie"
+      ],
+      "description": "Быстрая 2D-аркадная головоломка с падающими и поднимающимися блоками: нужно очищать линии, собирать комбо и держаться как можно дольше ради высокого счета.",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4812260/Tetra_Block/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4812260/Tetra_Block/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-challenge-99",
+      "name": "Challenge 99",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T09:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "3D Platformer",
+        "Precision Platformer",
+        "Arcade"
+      ],
+      "description": "Короткий, жесткий 3D-платформер для любителей испытаний: точные прыжки, быстрый темп и ставка на прохождение сложных трасс.",
+      "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4676670/871390155cb529eb07e9214c201a999aeb97a143/header.jpg?t=1782457349",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4676670/Challenge_99/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4676670/Challenge_99/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-horse-spirit-valley",
+      "name": "Horse Spirit Valley",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T09:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Exploration",
+        "Collectathon",
+        "Simulation"
+      ],
+      "description": "Спокойная 3D-игра про прогулки верхом по долинам: собираешь алмазы, открываешь новые пастбища и настраиваешь внешний вид лошади вплоть до единорожьих деталей.",
+      "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4734410/badbd7474842fd7d069c66b77a0d7e09c16e5a77/header.jpg?t=1782457301",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4734410/Horse_Spirit_Valley/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4734410/Horse_Spirit_Valley/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-sprunki-horror-towers",
+      "name": "Sprunki Horror Towers",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T09:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "3D Platformer",
+        "Puzzle Platformer",
+        "Adventure"
+      ],
+      "description": "Яркий 3D-платформер с башнями испытаний: нужно проходить уровни, решать платформенные задачи и спасать Sprunki от Black.",
+      "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3515560/500bc063fb20014f9ea05ca8a5f66ecfabae243b/header.jpg?t=1782457266",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3515560/Sprunki_Horror_Towers/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3515560/Sprunki_Horror_Towers/",
       "releaseType": "game"
     },
     {
