@@ -303,31 +303,21 @@ function closeDayModal() {
 
 function renderList() {
   els.releaseList.innerHTML = "";
-  const monthEnd = addMonths(state.currentMonth, 1);
-  const visible = state.search
-    ? state.filtered
-    : state.filtered.filter(
-        (release) =>
-          (release.dateObject >= state.currentMonth && release.dateObject < monthEnd) ||
-          isRecentRelease(release),
-      );
+  const todayKey = formatDateKey(new Date());
+  const visible = state.filtered.filter(
+    (release) => release.datePrecision === "day" && release.date === todayKey,
+  );
 
   if (!visible.length) {
     els.releaseList.innerHTML = state.search
-      ? `<div class="empty-state">По этому запросу ничего не найдено. Попробуйте другое название или снимите часть фильтров.</div>`
-      : `<div class="empty-state">Для выбранных фильтров в этом месяце релизов нет.</div>`;
+      ? `<div class="empty-state">Сегодня по этому запросу ничего не найдено. Попробуйте другое название или снимите часть фильтров.</div>`
+      : `<div class="empty-state">Сегодня для выбранных фильтров релизов нет.</div>`;
     return;
   }
 
   for (const release of visible) {
     els.releaseList.append(createReleaseCard(release));
   }
-}
-
-function isRecentRelease(release) {
-  const today = startOfDay(new Date());
-  const floor = addDays(today, -RECENT_RELEASE_DAYS);
-  return release.datePrecision === "day" && release.dateObject < today && release.dateObject >= floor;
 }
 
 function createReleaseCard(release, options = {}) {
