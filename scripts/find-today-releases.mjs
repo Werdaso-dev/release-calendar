@@ -71,7 +71,7 @@ async function fetchSteamSearchPage(start, count) {
   url.searchParams.set("sort_by", "Released_DESC");
   url.searchParams.set("supportedlang", "russian");
   url.searchParams.set("os", "mac,win,linux");
-  url.searchParams.set("category1", "998");
+  url.searchParams.set("ndl", "1");
   url.searchParams.set("l", "russian");
   url.searchParams.set("cc", "RU");
   url.searchParams.set("infinite", "1");
@@ -285,6 +285,7 @@ function looksLikeAdditionalContent(value, url = "") {
     /\bcontent pack\b/,
     /\bskin pack\b/,
     /\bcostume\b/,
+    /\bcostumes\b/,
     /\bcosmetic\b/,
     /\bbundle\b/,
     /\bsoundtrack\b/,
@@ -301,11 +302,38 @@ function looksLikeAdditionalContent(value, url = "") {
     /\bdemo\b/,
     /\bplaytest\b/,
     /\bbeta\b/,
+    /\bpack\b/,
+    /\bsupporter\b/,
+    /\buniform\b/,
+    /\baccessory\b/,
+    /\bcollection\b/,
+    /\bset\b/,
+    /\bwear\b/,
+    /\bbody suit\b/,
+    /\bbikini\b/,
+    /\bdress\b/,
+    /\boutfit\b/,
+    /\bmashup\b/,
+    /\blivery\b/,
     /дополнени[ея]/,
+    /дополнител/,
     /загружаем(?:ый|ое|ая|ые) контент/,
     /саундтрек/,
+    /サウンドトラック/,
     /набор .*скин/,
     /набор .*костюм/,
+    /костюм/,
+    /аксессуар/,
+    /набор/,
+    /демо/,
+    /музыкальный сборник/,
+    /пакет/,
+    /скин/,
+    /облик/,
+    /купальник/,
+    /наряд/,
+    /комплект/,
+    /коллекц/,
     /цифров(?:ой|ая|ое) артбук/,
   ];
 

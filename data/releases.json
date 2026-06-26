@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T06:00:00Z",
+  "updatedAt": "2026-06-26T12:00:00Z",
   "sourceName": "GamesRadar+, Gematsu, Steam и игровые СМИ",
   "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
   "platforms": [
@@ -82,6 +82,121 @@
       "verifiedAt": "2026-06-24T11:35:00.000Z",
       "sourceUrl": "https://www.gamesradar.com/games/persona/persona-6-is-rated-m-for-nudity-and-swears-and-im-now-wondering-if-the-jrpg-might-not-be-as-far-from-launch-as-we-all-feared/",
       "description": "Следующая большая Persona от Atlus. Для календаря оставлена как неточный будущий релиз, потому что публичные материалы пока не дают надежной конкретной даты.",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-baff-b",
+      "name": "BAFF B",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Minimalist, hardcore and challenging game in the genre of avoid-em up that will test your reflexes, timing and planning! This game is hard as hell!",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4830980/9cc481865399b89125fd3673100d70f803212d2d/header.jpg?t=1782377612",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4830980/BAFF_B/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4830980/BAFF_B/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-bitvania",
+      "name": "Bitvania",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры"
+      ],
+      "description": "Bitvania — это хаотичный экшен-платформер, в котором вы начинаете полностью безоружным. Хватайте всё, что найдёте — от кинжалов до дурианов и тапочек — управляйте выносливостью и надейтесь на редкий 1% шанс нанести критический удар с огромным уроном в решающий момент.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4546210/e49ace2275876beb77c18a9f59a2b40e462bd72d/header.jpg?t=1782421023",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4546210/Bitvania/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4546210/Bitvania/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-blood-park",
+      "name": "Blood Park",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены"
+      ],
+      "description": "Атмосферный VHS-хоррор от первого лица, где забытые кассеты ведут вас через заброшенные места, ужасающих существ и скрытый кошмар.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4703570/4a1a3677acefa242ece18efbb6962cf908fbbe9e/header.jpg?t=1782379430",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4703570/Blood_Park/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4703570/Blood_Park/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-chronime-puzzle-girls",
+      "name": "Chronime Puzzle: Girls",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры"
+      ],
+      "description": "Chronime Puzzle: Girls is a relaxing puzzle game featuring beautiful steampunk anime-inspired artwork.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4830940/7905bad4c5095cdf1e3041defeba5c6f297bc9ce/header.jpg?t=1782377590",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4830940/Chronime_Puzzle_Girls/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4830940/Chronime_Puzzle_Girls/",
       "releaseType": "game"
     },
     {
@@ -192,6 +307,34 @@
       "releaseType": "dlc"
     },
     {
+      "id": "verified-2026-06-25-dicepath",
+      "name": "DICEPATH",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Инди"
+      ],
+      "description": "DicePath — это головоломка, в которой каждый ход стоит очки действия. Планируйте свой маршрут, собирайте кубики, чтобы выжить, и доберитесь до выхода, пока у вас не закончились очки. 50 тщательно проработанных уровней. Один ресурс. Никаких шансов на ошибку.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4684810/2a8f123cc216c05343b31e132de022a6b4af99fd/header.jpg?t=1782402981",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4684810/DICEPATH/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4684810/DICEPATH/",
+      "releaseType": "game"
+    },
+    {
       "id": "verified-2026-06-25-directors-cut-train",
       "name": "Directors cut: Train",
       "date": "2026-06-25",
@@ -218,6 +361,246 @@
         }
       ],
       "sourceUrl": "https://store.steampowered.com/app/4630400/Directors_cut_Train/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-dynasty-protocol",
+      "name": "Dynasty Protocol",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "description": "Командуйте космическим флотом, добывайте ресурсы с астероидов и захватывайте колонии в этой стратегии реального времени. Улучшайте корабли и расширяйте свою династию в звёздной системе.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3438130/b5197dd4b042af742d283f8437544e50e6b23c65/header.jpg?t=1782407267",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3438130/Dynasty_Protocol/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3438130/Dynasty_Protocol/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-floor-12",
+      "name": "Floor 12",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "description": "Симулятор ходьбы с элементами хоррора, вдохновленный классикой поиска аномалий. Внимательно следите за светом, слушайте звуки и доверяйте интуиции. Один неверный шаг — и путь начнется заново. Сколько этажей отделяют вас от свободы?",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4804670/5e27ec4d32c75a26b9d3ec7903154266134b8d39/header.jpg?t=1782407814",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4804670/Floor_12/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4804670/Floor_12/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-grid-wars-last-stand",
+      "name": "Grid Wars: Last Stand",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "description": "Command a growing army in a fantasy tactical auto-battler. Place warriors, archers, monks, and heroes on an expanding grid, defend your keep against enemy waves, and conquer a world map filled with quests, rewards, and boss battles.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4761480/7ab3b5adcbbd4704f16731610e8615a85d38e915/header.jpg?t=1782408816",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4761480/Grid_Wars_Last_Stand/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4761480/Grid_Wars_Last_Stand/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-kiyo-bunny-tyranny",
+      "name": "KIYO - Bunny Tyranny",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "description": "Возьмите под контроль Киё — бывшего хищника, запертого в неоновых джунглях города, где правят кролики, одержимые смартфонами. Хватайте лук, проникайте в кроличьи объекты, раскрывайте их самые тёмные секреты и спасайте угнетённых в этом приключенческом стелс-платформере!",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2466790/f48cf9f42a61956979e99b69c5213b2928a6afed/header.jpg?t=1782395721",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/2466790/KIYO__Bunny_Tyranny/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/2466790/KIYO__Bunny_Tyranny/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-lawn-care-simulator",
+      "name": "Lawn Care Simulator",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "description": "Верните двор в Lawn Care Simulator! Берите газонокосилку и усмиряйте дикие газоны. От заросших дворов до больших поместий: косите, ровняйте и убирайте травинку за травинкой до идеала.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3859750/ddd50b20d3ae16f5e21c2f131d247f2f6ffde6ef/header.jpg?t=1782406941",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3859750/Lawn_Care_Simulator/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3859750/Lawn_Care_Simulator/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-light-force",
+      "name": "LIGHT FORCE",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Вы — крошечная искра света. Заряжайтесь, чтобы накапливать энергию, и высвобождайте её, чтобы совершать рывок — всё решает импульс. Освойте четыре аркадных режима — Race, Dodge, Break и Battle — в 40 вручную созданных уровнях, бесконечных забегах на выживание, 10 боевых аренах и онлайн-сражениях.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3990550/0c03ec4d62fab1617dea07a6b91367bb52b002b4/header.jpg?t=1782360030",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3990550/LIGHT_FORCE/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3990550/LIGHT_FORCE/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-mall-simulator-together",
+      "name": "Mall Simulator Together",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Инди",
+        "Многопользовательские игры",
+        "Симуляторы"
+      ],
+      "description": "Mall Simulator Together — многопользовательский симулятор управления торговым центром, в котором вы сможете открывать магазины, управлять поставками, расставлять товары, нанимать сотрудников и развивать собственный молл вместе с друзьями.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594460/d7f900f9506c9c238ebe25108b263781aeecd844/header.jpg?t=1782416066",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4594460/Mall_Simulator_Together/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4594460/Mall_Simulator_Together/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-mechanical-defense-line",
+      "name": "Mechanical Defense Line",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "description": "Это карточный рогалик в жанре tower defense. Создавайте и модифицируйте башни, оснащайте их снаряжением, проходите уровни и погружайтесь в сюжет. Усиливайте себя, выбирайте таланты в боях для победы. Получайте не менее 10 единиц снаряжения за бой. Больше контента в игре.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4505490/d85766e486012ade906426f8f00ccffeab23053a/header.jpg?t=1782373012",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4505490/Mechanical_Defense_Line/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4505490/Mechanical_Defense_Line/",
       "releaseType": "game"
     },
     {
@@ -284,6 +667,36 @@
       "releaseType": "game"
     },
     {
+      "id": "verified-2026-06-25-neon-hole",
+      "name": "Neon Hole",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Гонки"
+      ],
+      "description": "Погрузитесь в бесконечную, процедурно генерируемую неоновую пустоту. Уклоняйтесь от препятствий на гиперзвуковых скоростях, улучшайте корабль через дерево навыков и выживайте в ритме пульсирующей электронной музыки.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4453880/0d9ed079504d2fca8750c4b95ae791d650051b1c/header.jpg?t=1782399797",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4453880/Neon_Hole/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4453880/Neon_Hole/",
+      "releaseType": "game"
+    },
+    {
       "id": "verified-2026-06-25-never-ending-hero-rpg",
       "name": "Never Ending Hero RPG",
       "date": "2026-06-25",
@@ -310,6 +723,156 @@
         }
       ],
       "sourceUrl": "https://store.steampowered.com/app/4789260/Never_Ending_Hero_RPG/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-nuclear-epoch",
+      "name": "Nuclear Epoch",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Nuclear Epoch — выживание в открытом мире с тактическим шутером и строительством. Исследуйте пустошь с друзьями, зачищайте случайные данжи и эвакуируйте лут. Смерть лишает всего снаряжения! Стройте базы и куйте уникальное оружие со 100% кастомизацией.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049910/f959f0236c9c4e2af316c9464ac418aea9ed8ff0/header.jpg?t=1782374007",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4049910/Nuclear_Epoch/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4049910/Nuclear_Epoch/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-ok-boomer",
+      "name": "OK👍 Boomer",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "description": "Co-op survival horror на 4 игроков. Исследуйте пугающие глубины интернета с командой фанатов аналоговых технологий. Используйте ретро-технологии, чтобы устранять глитчи, беречь цифровой рассудок и выживать среди странных монстров, скрывающихся в deep web.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4162290/b34ccba799a08138a58946d4fc96e0f3c36b7d9a/header_alt_assets_0_russian.jpg?t=1782407765",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4162290/OK_Boomer/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4162290/OK_Boomer/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-pirate-treasure-hunt",
+      "name": "Pirate Treasure Hunt",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "description": "Pirate Treasure Hunt — это короткая инкрементальная игра об охоте за сокровищами. Исследуйте острова, открывайте редкие сокровища и древние артефакты, улучшайте свою экспедицию и станьте самым богатым пиратом на морях.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4524810/54dcf7ffa1bc9afc7bbf116c6cec45fb919332e2/header.jpg?t=1782388412",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4524810/Pirate_Treasure_Hunt/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4524810/Pirate_Treasure_Hunt/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-pixel-empires",
+      "name": "Pixel Empires",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "description": "Пиксельная idle-башня обороны, где королевство сражается само. Деревня добывает, армия бьётся, башня осыпает врагов стрелами — а ты целишься луком, плетёшь комбо и решаешь, что улучшить. Боссы, титаны, престиж, 100+ достижений. Ночь бесконечна. Лук — твой.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3730570/ec3409ee2189bd94a3a621823d6f84812e7719e4/header.jpg?t=1782396610",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3730570/Pixel_Empires/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3730570/Pixel_Empires/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-remagotchi",
+      "name": "Remagotchi",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "description": "Ретро-игра про виртуального питомца в духе 90-х. Пиксельный симулятор с множеством персонажей, включая редких питомцев, где ваши решения определяют развитие и эволюцию.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4476000/c883f72f5bb905708101e53724794bb19b514193/header.jpg?t=1782420927",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4476000/Remagotchi/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4476000/Remagotchi/",
       "releaseType": "game"
     },
     {
@@ -347,6 +910,66 @@
       "releaseType": "game"
     },
     {
+      "id": "verified-2026-06-25-slot-or-die",
+      "name": "Slot or Die",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Затерянный в проклятом замке, рыцарь противостоит ужасам с помощью игрового автомата в форме реликвии. Остановите барабаны, совместите атаки и бонусы, управляйте своим инвентарем и выживайте в этом мрачном roguelite, где каждый спин решает вашу судьбу.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4339080/3f60f58409a8c658900297eb1b3396c518bf7510/header.jpg?t=1782407137",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4339080/Slot_or_Die/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4339080/Slot_or_Die/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-spirit-dungeon",
+      "name": "Spirit Dungeon",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "description": "Сборка отряда × Построение колоды × Автобой. В роли призывателя собирайте духов, выбирайте карты и бросьте вызов рогалику-RPG в глубинах леса.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4442710/4a640ac23dc2a3d14f794bdd8d4f8517777c207d/header.jpg?t=1782407084",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4442710/Spirit_Dungeon/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4442710/Spirit_Dungeon/",
+      "releaseType": "game"
+    },
+    {
       "id": "verified-2026-06-25-tetra-block",
       "name": "Tetra Block",
       "date": "2026-06-25",
@@ -373,6 +996,126 @@
         }
       ],
       "sourceUrl": "https://store.steampowered.com/app/4812260/Tetra_Block/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-the-lumberjack-s-routine",
+      "name": "The Lumberjack's Routine",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "description": "Рубите деревья, собирайте древесину, нанимайте работников и развивайтесь в этой уютной пиксельной игре о буднях лесоруба. Каждое срубленное дерево приближает вас на шаг к выплате долга.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4695000/f3400c3a7b2be96f97a30cf0bcb53638ba85db72/header.jpg?t=1782404394",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4695000/The_Lumberjacks_Routine/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4695000/The_Lumberjacks_Routine/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-type-or-die",
+      "name": "Type or Die",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "description": "В глубине средневековой рукописи конь поднимает оружие, чтобы отомстить за своего павшего хозяина. Печатайте, чтобы атаковать, собирайте карты, исследуйте живое игровое поле и выживайте в рогалайте, где каждое слово становится оружием.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252830/42c62e123a581c3ce7d33ba5ef5cc37383aa7f26/header.jpg?t=1782407067",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4252830/Type_or_Die/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4252830/Type_or_Die/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-25-wheel-balance",
+      "name": "Wheel Balance",
+      "date": "2026-06-25",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Гонки"
+      ],
+      "description": "Wheel Balance это сложная и весёлая игра с отличной физикой про баланс на двух колесах. Освойте управление и пройдите все локации. Соревнуйтесь с друзьями за время прохождения. Постарайтесь не упасть далеко вниз!",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356420/631cf71732e58f65e662249f52162d585adcfa76/header.jpg?t=1782396123",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4356420/Wheel_Balance/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4356420/Wheel_Balance/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-a-game-about-bouncing-dvd",
+      "name": "A Game About Bouncing DVD",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "description": "Минималистичная инкрементальная игра, в которой вы наблюдаете, как логотипы DVD бесконечно отскакивают, зарабатываете очки, улучшаете экран и открываете всё более мощные улучшения.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324900/f63defd107ad525eff7d82850888f7ed0b78205f/header.jpg?t=1782455278",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4324900/A_Game_About_Bouncing_DVD/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4324900/A_Game_About_Bouncing_DVD/",
       "releaseType": "game"
     },
     {
@@ -406,6 +1149,65 @@
       "releaseType": "game"
     },
     {
+      "id": "verified-2026-06-26-chronicles-of-nameless-heroes",
+      "name": "Chronicles of Nameless Heroes",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Приняв простую просьбу деревни убить дикого волка, терроризирующего местных жителей, гильдия отправляется в путь, ожидая обычной охоты. Но как только зверь погибает, герои обнаруживают нечто гораздо более тёмное — распространяющуюся в соседнем городе чуму.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4033210/b0b0cd9df9a09847d44b0d02eee8f69f31252649/header.jpg?t=1782453740",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4033210/Chronicles_of_Nameless_Heroes/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4033210/Chronicles_of_Nameless_Heroes/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-fill-it",
+      "name": "FILL IT",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Fill It — тёплая логическая головоломка с фактурой бумаги в стиле Сикаку. Цифра в круге показывает количество клеток прямоугольника — разделите поле на прямоугольники без пересечений и пустот. 100 уровней, Бесконечный и Расслабленный режимы, ежедневное испытание и редактор с кодами для обмена.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4835130/c83075e5b92563568dd6720f16207f1a8eb6aec5/header.jpg?t=1782458377",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4835130/FILL_IT/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4835130/FILL_IT/",
+      "releaseType": "game"
+    },
+    {
       "id": "verified-2026-06-26-horse-spirit-valley",
       "name": "Horse Spirit Valley",
       "date": "2026-06-26",
@@ -436,6 +1238,66 @@
       "releaseType": "game"
     },
     {
+      "id": "verified-2026-06-26-nechto-infection-protocol",
+      "name": "NECHTO: Infection Protocol",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Многопользовательские игры"
+      ],
+      "description": "Карточная вечеринка для 4–12 игроков с заражением и скрытыми ролями. Один ноутбук на общем экране, телефоны — как контроллеры. Никаких установок — только браузер и Wi-Fi.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4813130/fe8e07d70748ad32d5f7c888ac77bb3bc20b54fd/header_russian.jpg?t=1782444478",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4813130/NECHTO_Infection_Protocol/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4813130/NECHTO_Infection_Protocol/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-richer-than-the-king",
+      "name": "Richer than the King",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "description": "Создайте огромное богатство, соберите армию повстанцев и свергните корону в этой средневековой экономической стратегии. Торгуйте каждый день, мудро инвестируйте, подкупайте королевских разведчиков, чтобы оставаться в тени, и сплотите других дворян, чтобы выжить в столкновениях с войсками короля.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4667920/6db8a2371003edc856d5b0ee63fcdb6be37fa5b8/header.jpg?t=1782448817",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4667920/Richer_than_the_King/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4667920/Richer_than_the_King/",
+      "releaseType": "game"
+    },
+    {
       "id": "verified-2026-06-26-sprunki-horror-towers",
       "name": "Sprunki Horror Towers",
       "date": "2026-06-26",
@@ -463,6 +1325,94 @@
         }
       ],
       "sourceUrl": "https://store.steampowered.com/app/3515560/Sprunki_Horror_Towers/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-verto",
+      "name": "Verto",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Размещайте блоки, собирайте комбинации и вращайте без конца. Выходите за рамки привычного геймплея, легко вращая игровое поле и создавая миллионы комбинаций. Сражайтесь на время или в бесконечном режиме и ставьте рекорды. Вы быстро освоитесь, но вам придется попотеть, чтобы освоить все тонкости.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4272230/60e0b86d64338f54241cd2e7a12c08b462e5654e/header.jpg?t=1782449844",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4272230/Verto/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4272230/Verto/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-steam-release",
+      "name": "吞食三国",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "description": "Action + Multiplayer + RPG. Players will experience many famous scenes from the Three Kingdoms period.Acquire equipment, use strategies or formations, and ultimately, will you accept the fate of history? Or create a new chapter? It's up to you to play!",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3872760/a83d9be5c0dbcee7f6de956429d1e02a754b2225/header.jpg?t=1782437183",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3872760/_/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3872760/_/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-2-pawrebuild-2",
+      "name": "爪爪改造家2 PawRebuild 2",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T12:00:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Five animal friends turn messy ruins into a cozy haven by matching identical items. It features 10 scenes with 5 renovation stages for each, adopts a distinctive cardboard art style, has no time limits or penalty mechanics, and allows you to unlock all achievements effortlessly.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4825980/caf24121a112a72146583f1cd98ae496a44b129c/header.jpg?t=1782457840",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4825980/2_PawRebuild_2/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4825980/2_PawRebuild_2/",
       "releaseType": "game"
     },
     {
