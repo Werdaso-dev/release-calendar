@@ -14,7 +14,6 @@ const existingSteamUrls = new Set(
 );
 
 const today = getDateParts(new Date(), "Europe/Moscow");
-const yesterday = offsetDate(today, -1);
 const maxRows = Number(process.env.STEAM_MAX_ROWS || 250);
 const pageSize = 50;
 const candidates = [];
@@ -29,13 +28,14 @@ for (let start = 0; start < maxRows; start += pageSize) {
     checked.push(row);
     const parsedDate = parseSteamDate(row.dateText);
     const isToday = parsedDate && sameDate(parsedDate, today);
-    const isYesterday = parsedDate && sameDate(parsedDate, yesterday);
-    if (isToday || isYesterday) pageHasRelevantDates = true;
-    if (!isToday && !isYesterday) continue;
+    if (isToday) pageHasRelevantDates = true;
+    if (!isToday) continue;
     if (existingNames.has(normalizeName(row.title)) || existingSteamUrls.has(normalizeSteamUrl(row.url))) continue;
+    if (looksLikeAdditionalContent(row.title, row.url)) continue;
 
     const details = await fetchSteamDetails(row.appid);
     if (details?.release_date?.coming_soon) continue;
+    if (isAdditionalContent(details, row)) continue;
 
     candidates.push({
       name: details?.name || row.title,
@@ -69,8 +69,8 @@ async function fetchSteamSearchPage(start, count) {
   url.searchParams.set("count", String(count));
   url.searchParams.set("dynamic_data", "");
   url.searchParams.set("sort_by", "Released_DESC");
-  url.searchParams.set("os", "win");
-  url.searchParams.set("supportedlang", "english");
+  url.searchParams.set("supportedlang", "russian");
+  url.searchParams.set("os", "mac,win,linux");
   url.searchParams.set("category1", "998");
   url.searchParams.set("l", "russian");
   url.searchParams.set("cc", "RU");
@@ -225,11 +225,6 @@ function getDateParts(date, timeZone) {
   };
 }
 
-function offsetDate(parts, days) {
-  const date = new Date(Date.UTC(parts.year, parts.month - 1, parts.day + days));
-  return { year: date.getUTCFullYear(), month: date.getUTCMonth() + 1, day: date.getUTCDate() };
-}
-
 function sameDate(a, b) {
   return a?.year === b.year && a?.month === b.month && a?.day === b.day;
 }
@@ -260,6 +255,61 @@ function mapGenres(genres = []) {
 function makeDescription(details) {
   const text = stripHtml(details?.short_description || "").trim();
   return text || "Описание будет уточнено по странице Steam.";
+}
+
+function isAdditionalContent(details, row) {
+  const type = String(details?.type || "").toLowerCase();
+  if (type && type !== "game") return true;
+
+  const text = [
+    details?.name,
+    row?.title,
+    details?.short_description,
+    ...(details?.categories || []).map((category) => category.description),
+    ...(details?.genres || []).map((genre) => genre.description),
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  return looksLikeAdditionalContent(text, row?.url);
+}
+
+function looksLikeAdditionalContent(value, url = "") {
+  const text = `${value || ""} ${url || ""}`.toLowerCase();
+  const additionalContentPatterns = [
+    /\bdlc\b/,
+    /\badd[- ]?on\b/,
+    /\bexpansion\b/,
+    /\bseason pass\b/,
+    /\bupgrade pack\b/,
+    /\bcontent pack\b/,
+    /\bskin pack\b/,
+    /\bcostume\b/,
+    /\bcosmetic\b/,
+    /\bbundle\b/,
+    /\bsoundtrack\b/,
+    /\bost\b/,
+    /\bartbook\b/,
+    /\bart book\b/,
+    /\bwallpaper\b/,
+    /\bavatar\b/,
+    /\bcurrency\b/,
+    /\bcoins?\b/,
+    /\btokens?\b/,
+    /\bcredits?\b/,
+    /\bpoints?\b/,
+    /\bdemo\b/,
+    /\bplaytest\b/,
+    /\bbeta\b/,
+    /дополнени[ея]/,
+    /загружаем(?:ый|ое|ая|ые) контент/,
+    /саундтрек/,
+    /набор .*скин/,
+    /набор .*костюм/,
+    /цифров(?:ой|ая|ое) артбук/,
+  ];
+
+  return additionalContentPatterns.some((pattern) => pattern.test(text));
 }
 
 function stripHtml(value) {
