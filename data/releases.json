@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T12:00:00Z",
+  "updatedAt": "2026-06-26T13:00:00Z",
   "sourceName": "GamesRadar+, Gematsu, Steam и игровые СМИ",
   "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
   "platforms": [
@@ -18,6 +18,36 @@
   },
   "note": "Основной календарь показывает релизы, подтвержденные официальными страницами, магазинами или игровыми СМИ. Wikipedia допускается только как дополнительный источник.",
   "releases": [
+    {
+      "id": "verified-2026-ratatan",
+      "name": "Ratatan",
+      "date": "2025-09-18",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Action",
+        "Rhythm",
+        "Roguelite",
+        "Indie"
+      ],
+      "description": "Ритмичный roguelite-экшен в духе Patapon: командуешь отрядом Cobun под бит, собираешь войско и проходишь хаотичные битвы в одиночку или с друзьями. В Steam игра уже вышла в раннем доступе.",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/2949320/Ratatan/",
+          "type": "store"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-26T13:00:00.000Z",
+      "sourceUrl": "https://store.steampowered.com/app/2949320/Ratatan/",
+      "releaseType": "game"
+    },
     {
       "id": "verified-2026-dune-awakening-console",
       "name": "Dune: Awakening",
@@ -1591,44 +1621,6 @@
       "verificationStatus": "verified",
       "verifiedAt": "2026-06-24T12:20:00.000Z",
       "sourceUrl": "https://www.gematsu.com/2026/03/the-mound-omen-of-cthulhu-launches-july-15",
-      "releaseType": "game"
-    },
-    {
-      "id": "verified-2026-ratatan",
-      "name": "Ratatan",
-      "date": "2026-07-16",
-      "datePrecision": "day",
-      "platforms": [
-        {
-          "id": "pc",
-          "name": "PC"
-        },
-        {
-          "id": "playstation",
-          "name": "PlayStation"
-        },
-        {
-          "id": "xbox",
-          "name": "Xbox"
-        }
-      ],
-      "genres": [
-        "Action",
-        "Rhythm",
-        "Roguelite",
-        "Indie"
-      ],
-      "description": "Ритмичный roguelite-экшен от создателей, связанных с наследием Patapon: собираете армию Cobun, отбиваете темп и проходите хаотичные битвы в одиночку или с друзьями.",
-      "sources": [
-        {
-          "name": "Gematsu",
-          "url": "https://www.gematsu.com/2026/03/ratatan-launches-july-16-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-pc",
-          "type": "media"
-        }
-      ],
-      "verificationStatus": "verified",
-      "verifiedAt": "2026-06-24T12:20:00.000Z",
-      "sourceUrl": "https://www.gematsu.com/2026/03/ratatan-launches-july-16-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-pc",
       "releaseType": "game"
     },
     {
