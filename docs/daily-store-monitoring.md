@@ -16,10 +16,13 @@ Start with the fast monitor script:
 
 ```bash
 node scripts/find-today-releases.mjs
+node scripts/find-console-store-releases.mjs
 node scripts/check-future-releases.mjs
 ```
 
-This script checks Steam with timeouts and prints a small JSON list of candidates that are not already in `data/releases.json`. Use it as the first pass before doing any manual browsing.
+The Steam script checks Steam with timeouts and prints a small JSON list of candidates that are not already in `data/releases.json`. Use it as the first pass before doing any manual browsing.
+
+The console-store script checks PlayStation Store, Xbox Store, and Nintendo eShop with bounded page counts and per-request timeouts. It must treat each store independently: if one store fails, keep the successful results from the other stores and report the failed store in the run summary. Nintendo candidates must be for the original Nintendo Switch only; filter out any Nintendo Switch 2-only pages.
 
 The future-check script checks only exact-date releases that are still in the future in Europe/Moscow. It must not re-check yesterday's releases or older released games. Use its `review_date_change` and `review_source_text` results as prompts for focused verification; update a future release date only when a reliable store, official page, or established games outlet confirms the new exact date or confirms that the old date is no longer valid. If most or all results are `review_no_sources_reached`, treat that as a network/source-access problem and do not manually browse every future release in that run.
 
@@ -88,7 +91,7 @@ If no new verified releases are found, do not change the site. In the run summar
 
 Codex has a cron automation named `Daily game store release monitor`. It runs once per day in this repository and must independently:
 
-1. Check today's exact-date releases without waiting for a user prompt.
+1. Check today's exact-date releases in Steam, PlayStation Store, Xbox Store, and Nintendo eShop without waiting for a user prompt.
 2. Check future exact-date releases for date changes, delays, or store-page corrections.
 3. Add verified full games to `data/releases.json`.
 4. Update future release dates when reliable sources confirm a change.
