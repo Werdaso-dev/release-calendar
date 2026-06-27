@@ -2,6 +2,8 @@
 
 Check new releases repeatedly during the day for the current date in the user's timezone, Europe/Moscow.
 
+Keep each daily automation run under 15 minutes. If the run is approaching that limit, stop optional manual verification, do not start broad research, and finish with either already verified safe changes or no repository changes.
+
 ## Stores to check
 
 - Steam
@@ -91,3 +93,4 @@ Codex has a cron automation named `Daily game store release monitor`. It runs on
 5. Rebuild generated artwork.
 6. Commit and push changes to `origin/main` so GitHub Pages deploys the updated site.
 7. Leave the repository unchanged when nothing reliable is found.
+8. Finish within 15 minutes; do not expand into broad manual research when scripts are slow or sources are unavailable.
