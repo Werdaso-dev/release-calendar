@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-label="Heartmend: 3D Jigsaw Puzzle artwork">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15191f"/>
+      <stop offset="0.55" stop-color="#385164"/>
+      <stop offset="1" stop-color="#c53d43"/>
+    </linearGradient>
+    <radialGradient id="flare" cx="72%" cy="24%" r="55%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#flare)"/>
+  <g opacity="0.16">
+    <circle cx="1038" cy="120" r="220" fill="#ffffff"/>
+    <circle cx="112" cy="656" r="260" fill="#ffffff"/>
+    <path d="M-120 184 C150 90 344 312 614 212 C856 122 1012 68 1400 188 L1400 0 L-120 0 Z" fill="#ffffff"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="70" y="72" width="1140" height="576" rx="34" fill="#10151d" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.18"/>
+  </g>
+  <g transform="translate(104 110)">
+    <text x="0" y="0" fill="#ffffff" fill-opacity="0.78" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="0">КАЗУАЛЬНЫЕ ИГРЫ</text>
+    <text x="0" y="102" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="900" letter-spacing="0">Heartmend: 3D Jigsaw</text>
+    <text x="0" y="180" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="900" letter-spacing="0">Puzzle</text>
+  </g>
+  <g transform="translate(104 586)">
+    <rect x="0" y="-48" width="230" height="58" rx="29" fill="#ffffff" fill-opacity="0.18" stroke="#ffffff" stroke-opacity="0.24"/>
+    <text x="25" y="-11" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="850" letter-spacing="0">PC</text>
+  </g>
+  <g transform="translate(1176 586)" text-anchor="end">
+    <text x="0" y="-12" fill="#ffffff" fill-opacity="0.86" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="850" letter-spacing="0">26.06.2026</text>
+  </g>
+</svg>

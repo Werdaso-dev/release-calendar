@@ -31,6 +31,8 @@ https://store.steampowered.com/search/?sort_by=Released_DESC&supportedlang=russi
 
 The monitor mirrors that view through Steam's search endpoint: Russian-supported games, Windows/macOS/Linux, newest releases first. Prefer the visible release date from the list before opening individual app pages.
 
+Steam's newest visible release date can lag behind the Europe/Moscow calendar date. If there are no rows for today's date but the newest visible Steam date is yesterday, process that newest visible Steam date instead of returning an empty result. This catches late Steam releases without re-opening older backlog days.
+
 Do not add Nintendo Switch 2 releases unless the same source also explicitly lists the original Nintendo Switch.
 
 ## What counts as addable

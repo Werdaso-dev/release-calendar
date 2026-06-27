@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T13:00:00Z",
+  "updatedAt": "2026-06-27T07:30:00Z",
   "sourceName": "GamesRadar+, Gematsu, Steam и игровые СМИ",
   "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
   "platforms": [
@@ -1119,6 +1119,36 @@
       "releaseType": "game"
     },
     {
+      "id": "verified-2026-06-26-бить-злодея",
+      "name": "Бить злодея",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-27T07:30:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Симуляторы",
+        "Образование"
+      ],
+      "description": "Невдача? Возможно, виноваты «злые люди». Испытайте онлайн ритуал «Da Siu Yan» в Гонконге. Выберите врага, бейте сандалией, изгоняйте зло, меняйте судьбу.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4827870/8fa5e0e1bd4a4cd2277a1b9ab95147dfd39bea9a/header.jpg?t=1782475590",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4827870/Bit_zlodeya/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4827870/Bit_zlodeya/",
+      "releaseType": "game"
+    },
+    {
       "id": "verified-2026-06-26-a-game-about-bouncing-dvd",
       "name": "A Game About Bouncing DVD",
       "date": "2026-06-26",
@@ -1209,6 +1239,35 @@
       "releaseType": "game"
     },
     {
+      "id": "verified-2026-06-26-code-solve-revolt",
+      "name": "Code, Solve, Revolt!",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-27T07:30:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "description": "«Code, Solve, Revolt!» — это игра-головоломка, где вы решаете заводские задачи с помощью интуитивного программирования перетаскиванием. Пишите код для робота, выполняйте задания уровней, продвигайтесь в глубь фабрики, открывайте новые виды головоломок и существ из структур данных и раскройте правду.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2562040/d050c189516618890e368f14be4ee8b7a25d3134/header.jpg?t=1782477769",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/2562040/Code_Solve_Revolt/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/2562040/Code_Solve_Revolt/",
+      "releaseType": "game"
+    },
+    {
       "id": "verified-2026-06-26-fill-it",
       "name": "FILL IT",
       "date": "2026-06-26",
@@ -1235,6 +1294,35 @@
         }
       ],
       "sourceUrl": "https://store.steampowered.com/app/4835130/FILL_IT/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-heartmend-3d-jigsaw-puzzle",
+      "name": "Heartmend: 3D Jigsaw Puzzle",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-27T07:30:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Heartmend — тёплая и расслабляющая 3D-головоломка о восстановлении. Двигайте, вращайте и соединяйте разбросанные фрагменты, чините старые вещи в комнате и постепенно возвращайте жизнь пустому пространству.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4775980/83a427aa1cef17f864710eaed907c3045b1c0d97/header.jpg?t=1782473510",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4775980/Heartmend_3D_Jigsaw_Puzzle/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4775980/Heartmend_3D_Jigsaw_Puzzle/",
       "releaseType": "game"
     },
     {
@@ -1298,6 +1386,95 @@
       "releaseType": "game"
     },
     {
+      "id": "verified-2026-06-26-never-trust-a-fox",
+      "name": "Never Trust a Fox",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-27T07:30:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Юри визуальная новелла в жанре хоррор, в которой смешаны безумие, девочки-лисички и запретная любовь.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2890650/d92f43ac35e8542e225963b1bd3e4e37a0a74535/header.jpg?t=1782499463",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/2890650/Never_Trust_a_Fox/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/2890650/Never_Trust_a_Fox/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-nophenia",
+      "name": "nophenia",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-27T07:30:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Маленькое путешевствие в мечтаниях.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979330/a1e904099fd3f3fc59a75090ddbb5f41bba1be8c/header.jpg?t=1782478884",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3979330/nophenia/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3979330/nophenia/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-normal-dev-guy-inside-kenney-world",
+      "name": "Normal Dev Guy - Inside Kenney World",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-27T07:30:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Норман — обычный разработчик игр, который прыгнул в собственную игру, чтобы её протестировать, — и теперь должен исправлять баги самым неожиданным способом: играя в безумные мини-игры изнутри кода!",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4506350/0fd303f4aa4b23d847d1dc11c2bff13ab205e52e/header.jpg?t=1782474844",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4506350/Normal_Dev_Guy__Inside_Kenney_World/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4506350/Normal_Dev_Guy__Inside_Kenney_World/",
+      "releaseType": "game"
+    },
+    {
       "id": "verified-2026-06-26-richer-than-the-king",
       "name": "Richer than the King",
       "date": "2026-06-26",
@@ -1325,6 +1502,36 @@
         }
       ],
       "sourceUrl": "https://store.steampowered.com/app/4667920/Richer_than_the_King/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-signal",
+      "name": "Signal",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-27T07:30:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Вы — оператор на отдалённом терминале связи. Перенаправляйте сообщения. Следуйте протоколу. Поддерживайте работу системы. Петля уже началась.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4783160/44e72b93bac566187876afcdf99d8ee422b63e53/header.jpg?t=1782493519",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4783160/Signal/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4783160/Signal/",
       "releaseType": "game"
     },
     {
@@ -1358,6 +1565,124 @@
       "releaseType": "game"
     },
     {
+      "id": "verified-2026-06-26-station-nexus",
+      "name": "Station Nexus",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-27T07:30:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Расследуя крушение космического корабля, вы сталкиваетесь с необъяснимой пространственной аномалией. Управляйте энергией и ресурсами, продолжайте своё путешествие и раскройте тайну явления, которое медленно поглощает саму реальность.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4385820/5f6c03309e03be80e15841eaa8e337f38dcf7921/header.jpg?t=1782482539",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4385820/Station_Nexus/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4385820/Station_Nexus/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-the-anomaly-unit",
+      "name": "THE ANOMALY UNIT",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-27T07:30:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "description": "Вынужденный работать Наблюдателем Аномалий на космическом складе, ты должен исследовать окружение, внимательно наблюдать и сообщать о несоответствиях. Зарабатывай кредиты для покупки улучшений, но будь осторожен: в темноте таятся ужасные существа.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4300190/db4b75a8e0087c576c4171ea6b63295d934b73fd/header.jpg?t=1782489715",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4300190/THE_ANOMALY_UNIT/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4300190/THE_ANOMALY_UNIT/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-top-bins",
+      "name": "Top Bins",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-27T07:30:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Спорт",
+        "Стратегии"
+      ],
+      "description": "Это пошаговая игра, в которой вы бьете мячами по движущимся воротам, чтобы заработать золотые шипы. Тратьте золотые шипы на мощные улучшения, чтобы заработать еще больше золотых шипов и победить боссов-вратарей в испытаниях со штрафными ударами, чтобы подняться по лигам!",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4819080/58669bde8e88d617e4e132a0c17d80d7a611472e/header.jpg?t=1782470357",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4819080/Top_Bins/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4819080/Top_Bins/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-unlucky-day",
+      "name": "Unlucky Day",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-27T07:30:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры"
+      ],
+      "description": "Кликер-игра о том, как пережить день, который тебя ненавидит. С ужасными шансами на успех, сможет ли Мика пережить десять катастроф подряд и встретиться с подругой в баре?",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4544610/29d3ac6355b2f50a9220d0fbed3236c13bf4c933/header.jpg?t=1782487359",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4544610/Unlucky_Day/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4544610/Unlucky_Day/",
+      "releaseType": "game"
+    },
+    {
       "id": "verified-2026-06-26-verto",
       "name": "Verto",
       "date": "2026-06-26",
@@ -1384,6 +1709,36 @@
         }
       ],
       "sourceUrl": "https://store.steampowered.com/app/4272230/Verto/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-26-wild-west-supermarket-simulator",
+      "name": "Wild West Supermarket Simulator",
+      "date": "2026-06-26",
+      "datePrecision": "day",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-27T07:30:00.000Z",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "description": "Откройте универсальную лавку на Диком Западе. Расширяйте и обустраивайте магазин. Заботьтесь о постоянно меняющихся нуждах покупателей. Делайте все самостоятельно или назначьте работников управлять кассой и расставлять товары по полкам. Попробуйте себя в роли владельца магазина на Диком Западе.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3690760/bbfb66e2cad8d20f6611061d716e133a97b26f05/header_alt_assets_1.jpg?t=1782475455",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3690760/Wild_West_Supermarket_Simulator/",
+          "type": "store"
+        }
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3690760/Wild_West_Supermarket_Simulator/",
       "releaseType": "game"
     },
     {

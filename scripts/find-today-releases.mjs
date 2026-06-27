@@ -14,6 +14,7 @@ const existingSteamUrls = new Set(
 );
 
 const today = getDateParts(new Date(), "Europe/Moscow");
+const yesterday = offsetDate(today, -1);
 const maxRows = Number(process.env.STEAM_MAX_ROWS || 250);
 const pageSize = 50;
 const candidates = [];
@@ -22,40 +23,48 @@ const checked = [];
 for (let start = 0; start < maxRows; start += pageSize) {
   const page = await fetchSteamSearchPage(start, pageSize);
   if (!page.length) break;
+  checked.push(...page);
 
-  let pageHasRelevantDates = false;
-  for (const row of page) {
-    checked.push(row);
+  const pageHasRelevantDates = page.some((row) => {
     const parsedDate = parseSteamDate(row.dateText);
-    const isToday = parsedDate && sameDate(parsedDate, today);
-    if (isToday) pageHasRelevantDates = true;
-    if (!isToday) continue;
-    if (existingNames.has(normalizeName(row.title)) || existingSteamUrls.has(normalizeSteamUrl(row.url))) continue;
-    if (looksLikeAdditionalContent(row.title, row.url)) continue;
-
-    const details = await fetchSteamDetails(row.appid);
-    if (details?.release_date?.coming_soon) continue;
-    if (isAdditionalContent(details, row)) continue;
-
-    candidates.push({
-      name: details?.name || row.title,
-      date: formatDateKey(today),
-      steamVisibleDate: row.dateText,
-      sourceUrl: cleanSteamUrl(row.url),
-      releaseType: "game",
-      platforms: [{ id: "pc", name: "PC" }],
-      genres: mapGenres(details?.genres),
-      description: makeDescription(details),
-      sources: [{ name: "Steam", url: cleanSteamUrl(row.url), type: "store" }],
-    });
-  }
-
+    return parsedDate && (sameDate(parsedDate, today) || sameDate(parsedDate, yesterday));
+  });
   if (!pageHasRelevantDates && start > 0) break;
+}
+
+const visibleDates = checked.map((row) => parseSteamDate(row.dateText)).filter(Boolean).sort(compareDates);
+const latestVisibleDate = visibleDates.at(-1) || today;
+const hasTodayRows = checked.some((row) => sameDate(parseSteamDate(row.dateText), today));
+const targetDate = hasTodayRows || !sameDate(latestVisibleDate, yesterday) ? today : latestVisibleDate;
+const targetDateKey = formatDateKey(targetDate);
+
+for (const row of checked) {
+  const parsedDate = parseSteamDate(row.dateText);
+  if (!parsedDate || !sameDate(parsedDate, targetDate)) continue;
+  if (existingNames.has(normalizeName(row.title)) || existingSteamUrls.has(normalizeSteamUrl(row.url))) continue;
+  if (looksLikeAdditionalContent(row.title, row.url)) continue;
+
+  const details = await fetchSteamDetails(row.appid);
+  if (details?.release_date?.coming_soon) continue;
+  if (isAdditionalContent(details, row)) continue;
+
+  candidates.push({
+    name: details?.name || row.title,
+    date: targetDateKey,
+    steamVisibleDate: row.dateText,
+    sourceUrl: cleanSteamUrl(row.url),
+    releaseType: "game",
+    platforms: [{ id: "pc", name: "PC" }],
+    genres: mapGenres(details?.genres),
+    description: makeDescription(details),
+    sources: [{ name: "Steam", url: cleanSteamUrl(row.url), type: "store" }],
+  });
 }
 
 const payload = {
   checkedAt: new Date().toISOString(),
   date: formatDateKey(today),
+  steamTargetDate: targetDateKey,
   checkedRows: checked.length,
   candidates,
 };
@@ -229,6 +238,19 @@ function sameDate(a, b) {
   return a?.year === b.year && a?.month === b.month && a?.day === b.day;
 }
 
+function compareDates(a, b) {
+  return dateValue(a) - dateValue(b);
+}
+
+function dateValue(parts) {
+  return Date.UTC(parts.year, parts.month - 1, parts.day);
+}
+
+function offsetDate(parts, days) {
+  const date = new Date(Date.UTC(parts.year, parts.month - 1, parts.day + days));
+  return { year: date.getUTCFullYear(), month: date.getUTCMonth() + 1, day: date.getUTCDate() };
+}
+
 function formatDateKey(parts) {
   return `${parts.year}-${String(parts.month).padStart(2, "0")}-${String(parts.day).padStart(2, "0")}`;
 }
@@ -260,6 +282,7 @@ function makeDescription(details) {
 function isAdditionalContent(details, row) {
   const type = String(details?.type || "").toLowerCase();
   if (type && type !== "game") return true;
+  if (isNonGameApplication(details)) return true;
 
   const text = [
     details?.name,
@@ -272,6 +295,25 @@ function isAdditionalContent(details, row) {
     .join(" ");
 
   return looksLikeAdditionalContent(text, row?.url);
+}
+
+function isNonGameApplication(details) {
+  const genres = (details?.genres || []).map((genre) => String(genre.description || "").toLowerCase());
+  const nonGameGenres = ["утилиты", "работа со звуком", "обработка фото", "дизайн и иллюстрация"];
+  const gameLikeGenres = [
+    "экшены",
+    "приключенческие игры",
+    "казуальные игры",
+    "инди",
+    "ролевые игры",
+    "симуляторы",
+    "стратегии",
+    "спорт",
+    "гонки",
+    "многопользовательские игры",
+  ];
+
+  return genres.some((genre) => nonGameGenres.includes(genre)) && !genres.some((genre) => gameLikeGenres.includes(genre));
 }
 
 function looksLikeAdditionalContent(value, url = "") {
@@ -315,6 +357,14 @@ function looksLikeAdditionalContent(value, url = "") {
     /\boutfit\b/,
     /\bmashup\b/,
     /\blivery\b/,
+    /\bvoice chat\b/,
+    /\btext chat\b/,
+    /\bpomodoro\b/,
+    /\bcalendar\b/,
+    /\bhabit\b/,
+    /\bproductivity\b/,
+    /\bhdd\b/,
+    /\bssd\b/,
     /дополнени[ея]/,
     /дополнител/,
     /загружаем(?:ый|ое|ая|ые) контент/,
@@ -334,6 +384,16 @@ function looksLikeAdditionalContent(value, url = "") {
     /наряд/,
     /комплект/,
     /коллекц/,
+    /голосов(?:ой|ая|ое|ые) .*чат/,
+    /текстов(?:ой|ая|ое|ые) .*чат/,
+    /помодоро/,
+    /календар/,
+    /привычк/,
+    /заметк/,
+    /подписок/,
+    /приложени[ея]/,
+    /активност[ьи] hdd/,
+    /активност[ьи] ssd/,
     /цифров(?:ой|ая|ое) артбук/,
   ];
 
