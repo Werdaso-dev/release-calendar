@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T07:30:00Z",
+  "updatedAt": "2026-06-28T08:42:00Z",
   "sourceName": "GamesRadar+, Gematsu, Steam и игровые СМИ",
   "sourceUrl": "https://www.gamesradar.com/new-pc-games/",
   "platforms": [
@@ -18,6 +18,150 @@
   },
   "note": "Основной календарь показывает релизы, подтвержденные официальными страницами, магазинами или игровыми СМИ. Wikipedia допускается только как дополнительный источник.",
   "releases": [
+    {
+      "id": "verified-2026-06-27-luxmithar",
+      "name": "Luxmithar",
+      "date": "2026-06-27",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "description": "2D roguelite про выживание и оборону разбитой кузницы. Игрок расширяет модульный мир по сетке, строит башни и ловушки и отбивается от волн врагов среди смены дней, бурь и темноты.",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3454890/Luxmithar/",
+          "type": "store"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-28T08:42:00.000Z",
+      "sourceUrl": "https://store.steampowered.com/app/3454890/Luxmithar/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-27-elementra-the-sundered-world",
+      "name": "Elementra: The Sundered World",
+      "date": "2026-06-27",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Многопользовательские игры",
+        "Ролевые игры"
+      ],
+      "description": "Кооперативная ролевая игра с PvP-сражениями и сюжетной кампанией, где сила героя строится на балансе света и тьмы. Игрокам предстоят совместные бои, развитие персонажа и выживание в опасном мире.",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4438040/Elementra_The_Sundered_World/",
+          "type": "store"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-28T08:42:00.000Z",
+      "sourceUrl": "https://store.steampowered.com/app/4438040/Elementra_The_Sundered_World/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-27-kids-arcade",
+      "name": "Kids Arcade",
+      "date": "2026-06-27",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Гонки"
+      ],
+      "description": "Локальная кооперативная аркада для 1-4 игроков с набором быстрых мини-игр: гонками, рыбалкой, соревнованиями с препятствиями и другими короткими испытаниями для игры на одном экране.",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4804640/Kids_Arcade/",
+          "type": "store"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-28T08:42:00.000Z",
+      "sourceUrl": "https://store.steampowered.com/app/4804640/Kids_Arcade/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-27-slime-jamboree",
+      "name": "Slime Jamboree",
+      "date": "2026-06-27",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Физическая tower defense-игра, где игрок останавливает слизней, бросая их и взаимодействуя с ними мышью. Акцент сделан на непрерывном игровом процессе без лишних меню и на расслабленной аркадной подаче.",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4464670/Slime_Jamboree/",
+          "type": "store"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-28T08:42:00.000Z",
+      "sourceUrl": "https://store.steampowered.com/app/4464670/Slime_Jamboree/",
+      "releaseType": "game"
+    },
+    {
+      "id": "verified-2026-06-27-space-invasion-infinite",
+      "name": "Space Invasion Infinite",
+      "date": "2026-06-27",
+      "datePrecision": "day",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC"
+        }
+      ],
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "description": "Ретро-экшен roguelike в духе классических аркад про отражение инопланетного вторжения. Игрок уничтожает волны врагов, улучшает турель, открывает классы, постоянные улучшения, боссов и модификаторы сложности.",
+      "sources": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4755630/Space_Invasion_Infinite/",
+          "type": "store"
+        }
+      ],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-06-28T08:42:00.000Z",
+      "sourceUrl": "https://store.steampowered.com/app/4755630/Space_Invasion_Infinite/",
+      "releaseType": "game"
+    },
     {
       "id": "verified-2026-ratatan",
       "name": "Ratatan",
